@@ -6573,8 +6573,7 @@ check_base_type (const_tree cand, const_tree base)
 			        TYPE_ATTRIBUTES (base)))
     return false;
   /* Check alignment.  */
-  if (TYPE_ALIGN (cand) == TYPE_ALIGN (base)
-      && TYPE_USER_ALIGN (cand) == TYPE_USER_ALIGN (base))
+  if (TYPE_ALIGN (cand) == TYPE_ALIGN (base))
     return true;
   /* Atomic types increase minimal alignment.  We must to do so as well
      or we get duplicated canonical types. See PR88686.  */
