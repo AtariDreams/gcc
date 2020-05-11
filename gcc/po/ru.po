@@ -1579,16 +1579,16 @@ msgid "using simple load CSE after register allocation"
 msgstr "Планировать код после распределения регистров."
 
 #. It's the compiler's fault.
-#: reload1.c:5997
+#: reload1.c:5998
 msgid "could not find a spill register"
 msgstr "не найден регистр для выталкивания"
 
 #. It's the compiler's fault.
-#: reload1.c:7879
+#: reload1.c:7880
 msgid "VOIDmode on an output"
 msgstr "режим VOID выходного потока"
 
-#: reload1.c:8612
+#: reload1.c:8613
 msgid "failure trying to reload:"
 msgstr "Ошибка при перезагрузке (reload):"
 
@@ -7290,6 +7290,11 @@ msgid "Specify maximum error replay depth during recursive diagnosis of a constr
 msgstr ""
 
 #: c-family/c.opt:1535
+#, no-c-format
+msgid "Specify maximum error replay depth during recursive diagnosis of a constraint satisfaction failure."
+msgstr ""
+
+#: c-family/c.opt:1462
 #, no-c-format
 msgid "Allow the arguments of the '?' operator to have different types."
 msgstr "Разрешить разные типы для операндов операции '?'."
@@ -16983,6 +16988,11 @@ msgid "Disable -Wframe-larger-than= warning.  Equivalent to -Wframe-larger-than=
 msgstr ""
 
 #: common.opt:611
+#, no-c-format
+msgid "Disable -Wframe-larger-than= warning.  Equivalent to -Wframe-larger-than=<SIZE_MAX> or larger."
+msgstr ""
+
+#: common.opt:610
 #, no-c-format
 msgid "Warn when attempting to free a non-heap object."
 msgstr "Предупреждать о попытках освобождения объектов, размещенных не в динамической памяти."
@@ -27983,17 +27993,17 @@ msgstr "не найден регистр класса %qs для загрузк�
 msgid "unable to find a register to spill in class %qs"
 msgstr "не найден регистр класса %qs для выталкивания в память"
 
-#: reload1.c:4585
+#: reload1.c:4586
 #, gcc-internal-format
 msgid "%<asm%> operand requires impossible reload"
 msgstr "для операнда %<asm%> требуется неосуществимая перезагрузка данных"
 
-#: reload1.c:6002
+#: reload1.c:6003
 #, gcc-internal-format
 msgid "%<asm%> operand constraint incompatible with operand size"
 msgstr "ограничитель операнда %<asm%> не согласуется с размером операнда"
 
-#: reload1.c:7880
+#: reload1.c:7881
 #, gcc-internal-format
 msgid "output operand is constant in %<asm%>"
 msgstr "выходной операнд %<asm%> - константа"
@@ -36615,12 +36625,12 @@ msgstr ""
 msgid "%s incompatible with %<-mword-relocations%>"
 msgstr "-fjni несовместимо с -freduced-reflection"
 
-#: config/arm/arm.c:3075
+#: config/arm/arm.c:3082
 #, gcc-internal-format
 msgid "target CPU does not support THUMB instructions"
 msgstr "целевой процессор не поддерживает команды THUMB"
 
-#: config/arm/arm.c:3125
+#: config/arm/arm.c:3132
 #, gcc-internal-format
 msgid "target CPU does not support unaligned accesses"
 msgstr "целевой процессор не поддерживает невыровненные доступы"
@@ -53103,25 +53113,25 @@ msgid "width of bit-field %qD has non-integral type %qT"
 msgstr "ширина битового поля %qD имеет нецелочисленный тип %qT"
 
 #
-#: cp/decl2.c:1444
+#: cp/decl2.c:1443
 #, fuzzy, gcc-internal-format
 #| msgid "incomplete type %qT not allowed"
 msgid "incomplete type %qT is not mappable"
 msgstr "неполный тип %qT не допускается"
 
-#: cp/decl2.c:1456
+#: cp/decl2.c:1455
 #, fuzzy, gcc-internal-format
 #| msgid "type %qE has virtual member functions"
 msgid "type %qT with virtual members is not mappable"
 msgstr "тип %qE имеет виртуальную функцию-элемент"
 
-#: cp/decl2.c:1468
+#: cp/decl2.c:1467
 #, fuzzy, gcc-internal-format
 #| msgid "%qs at %C is not a variable"
 msgid "static field %qD is not mappable"
 msgstr "%qs в %C не является переменной"
 
-#: cp/decl2.c:1557
+#: cp/decl2.c:1556
 #, gcc-internal-format
 msgid "%q+D static data member inside of declare target directive"
 msgstr "%q+D статический элемент данных внутри declare target директивы"

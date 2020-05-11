@@ -1463,16 +1463,16 @@ msgid "using simple load CSE after register allocation"
 msgstr "Bật Local Register Allocation."
 
 #. It's the compiler's fault.
-#: reload1.c:5997
+#: reload1.c:5998
 msgid "could not find a spill register"
 msgstr "không tìm thấy một thanh ghi làm tràn"
 
 #. It's the compiler's fault.
-#: reload1.c:7879
+#: reload1.c:7880
 msgid "VOIDmode on an output"
 msgstr "Chế độ VOIDmode trên một đầu ra"
 
-#: reload1.c:8612
+#: reload1.c:8613
 msgid "failure trying to reload:"
 msgstr "gặp lỗi nghiêm trọng khi tải lại:"
 
@@ -7206,6 +7206,11 @@ msgstr ""
 
 #: c-family/c.opt:1535
 #, no-c-format
+msgid "Specify maximum error replay depth during recursive diagnosis of a constraint satisfaction failure."
+msgstr ""
+
+#: c-family/c.opt:1462
+#, no-c-format
 msgid "Allow the arguments of the '?' operator to have different types."
 msgstr ""
 
@@ -7377,7 +7382,7 @@ msgstr ""
 msgid "Enable C++ header module (experimental)."
 msgstr ""
 
-#: c-family/c.opt:1721
+#: c-family/c.opt:1725
 #, no-c-format
 msgid "Member functions defined within their class are inline in module purview."
 msgstr ""
@@ -7422,17 +7427,17 @@ msgstr ""
 msgid "Note Compiled Module Interface pathnames."
 msgstr ""
 
-#: c-family/c.opt:1761
+#: c-family/c.opt:1765
 #, no-c-format
 msgid "Note Compiled Module Interface pathname of a specific module or header-unit."
 msgstr ""
 
-#: c-family/c.opt:1765
+#: c-family/c.opt:1769
 #, no-c-format
 msgid "fmax-include-depth=<number> Set the maximum depth of the nested #include."
 msgstr ""
 
-#: c-family/c.opt:1769
+#: c-family/c.opt:1773
 #, no-c-format
 msgid "Don't warn about uses of Microsoft extensions."
 msgstr "Không cảnh báo dùng lệnh mở rộng Microsoft."
@@ -16928,6 +16933,11 @@ msgstr ""
 
 #: common.opt:611
 #, no-c-format
+msgid "Disable -Wframe-larger-than= warning.  Equivalent to -Wframe-larger-than=<SIZE_MAX> or larger."
+msgstr ""
+
+#: common.opt:610
+#, no-c-format
 msgid "Warn when attempting to free a non-heap object."
 msgstr "Cảnh báo khi cố giải phóng một đối tượng không-heap."
 
@@ -17898,12 +17908,12 @@ msgstr ""
 msgid "-fcf-protection=[full|branch|return|none|check]\tInstrument functions with checks to verify jump/call/return control-flow transfer instructions have valid targets."
 msgstr ""
 
-#: common.opt:1810
+#: common.opt:1822
 #, no-c-format
 msgid "Instrument function entry and exit with profiling calls."
 msgstr ""
 
-#: common.opt:1814
+#: common.opt:1826
 #, no-c-format
 msgid "-finstrument-functions-exclude-function-list=name,...\tDo not instrument listed functions."
 msgstr ""
@@ -17918,7 +17928,7 @@ msgstr ""
 msgid "Perform interprocedural constant propagation."
 msgstr ""
 
-#: common.opt:1826
+#: common.opt:1838
 #, no-c-format
 msgid "Perform cloning to make Interprocedural constant propagation stronger."
 msgstr ""
@@ -18370,27 +18380,27 @@ msgstr ""
 
 #: common.opt:2289
 #, no-c-format
-msgid "Enable common options for performing profile feedback directed optimizations."
+msgid "Remove prefix from absolute path before manging name for -fprofile-generate= and -fprofile-use=."
 msgstr ""
 
 #: common.opt:2293
 #, no-c-format
-msgid "Enable common options for performing profile feedback directed optimizations, and set -fprofile-dir=."
+msgid "Enable common options for generating profile info for profile feedback directed optimizations."
 msgstr ""
 
 #: common.opt:2297
 #, no-c-format
-msgid "Insert code to profile values of expressions."
+msgid "Enable common options for generating profile info for profile feedback directed optimizations, and set -fprofile-dir=."
 msgstr ""
 
 #: common.opt:2301
 #, no-c-format
-msgid "Report on consistency of profile."
+msgid "Do not assume that functions never executed during the train run are cold."
 msgstr ""
 
 #: common.opt:2305
 #, no-c-format
-msgid "Enable function reordering that improves code placement."
+msgid "Enable common options for performing profile feedback directed optimizations."
 msgstr ""
 
 #: common.opt:2309
@@ -27644,17 +27654,17 @@ msgstr ""
 msgid "unable to find a register to spill in class %qs"
 msgstr ""
 
-#: reload1.c:4585
+#: reload1.c:4586
 #, gcc-internal-format
 msgid "%<asm%> operand requires impossible reload"
 msgstr ""
 
-#: reload1.c:6002
+#: reload1.c:6003
 #, gcc-internal-format
 msgid "%<asm%> operand constraint incompatible with operand size"
 msgstr ""
 
-#: reload1.c:7880
+#: reload1.c:7881
 #, gcc-internal-format
 msgid "output operand is constant in %<asm%>"
 msgstr ""
@@ -36018,12 +36028,12 @@ msgstr "-mslow-flash-data chỉ hỗ trợ mã không-pic trên đích armv7-m"
 msgid "%s incompatible with %<-mword-relocations%>"
 msgstr "%qs không tương thích với %s %s"
 
-#: config/arm/arm.c:3075
+#: config/arm/arm.c:3082
 #, gcc-internal-format
 msgid "target CPU does not support THUMB instructions"
 msgstr "CPU đích không hỗ trợ chỉ lệnh THUMB"
 
-#: config/arm/arm.c:3125
+#: config/arm/arm.c:3132
 #, gcc-internal-format
 msgid "target CPU does not support unaligned accesses"
 msgstr "CPU đích không hỗ trợ truy cập chưa cân chỉnh"
@@ -52391,25 +52401,25 @@ msgstr ""
 msgid "width of bit-field %qD has non-integral type %qT"
 msgstr ""
 
-#: cp/decl2.c:1444
+#: cp/decl2.c:1443
 #, fuzzy, gcc-internal-format
 #| msgid "class type %qT is incomplete"
 msgid "incomplete type %qT is not mappable"
 msgstr "kiểu lớp %qT chưa hoàn thiện"
 
-#: cp/decl2.c:1456
+#: cp/decl2.c:1455
 #, fuzzy, gcc-internal-format
 #| msgid "type %qE has virtual member functions"
 msgid "type %qT with virtual members is not mappable"
 msgstr "kiểu %qE có các hàm thành viên ảo"
 
-#: cp/decl2.c:1468
+#: cp/decl2.c:1467
 #, fuzzy, gcc-internal-format
 #| msgid "%qs at %C is not a variable"
 msgid "static field %qD is not mappable"
 msgstr "%qs tại %C không phải là một biến"
 
-#: cp/decl2.c:1557
+#: cp/decl2.c:1556
 #, gcc-internal-format
 msgid "%q+D static data member inside of declare target directive"
 msgstr "thành viên dữ liệu tĩnh %q+D bên trong của chỉ thị khai báo đích"

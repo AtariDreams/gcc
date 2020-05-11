@@ -1573,16 +1573,16 @@ msgid "using simple load CSE after register allocation"
 msgstr "Atur penjadwalan instruksi setelah alokasi register"
 
 #. It's the compiler's fault.
-#: reload1.c:5997
+#: reload1.c:5998
 msgid "could not find a spill register"
 msgstr "tidak dapat menemukan register spill"
 
 #. It's the compiler's fault.
-#: reload1.c:7879
+#: reload1.c:7880
 msgid "VOIDmode on an output"
 msgstr "VOIDmode di sebuah keluaran"
 
-#: reload1.c:8612
+#: reload1.c:8613
 #, fuzzy
 #| msgid "Failure trying to reload:"
 msgid "failure trying to reload:"
@@ -29961,17 +29961,17 @@ msgstr "tidak dapat menemukan sebuah register dalam class %qs ketika mereload %<
 msgid "unable to find a register to spill in class %qs"
 msgstr "tidak dapat menemukan sebuah register untuk spill dalam kelas %qs"
 
-#: reload1.c:4585
+#: reload1.c:4586
 #, gcc-internal-format
 msgid "%<asm%> operand requires impossible reload"
 msgstr "operan %<asm%> membutuhkan reload yang tidak memungkinkan"
 
-#: reload1.c:6002
+#: reload1.c:6003
 #, gcc-internal-format
 msgid "%<asm%> operand constraint incompatible with operand size"
 msgstr "batasan operan %<asm%> tidak kompatibel dengan ukuran operan"
 
-#: reload1.c:7880
+#: reload1.c:7881
 #, gcc-internal-format
 msgid "output operand is constant in %<asm%>"
 msgstr "keluaran operan adalah konstanta dalam %<asm%>"
@@ -38699,12 +38699,12 @@ msgstr ""
 msgid "%s incompatible with %<-mword-relocations%>"
 msgstr "-fjni tidak kompatibel dengan -freduced-reflection"
 
-#: config/arm/arm.c:3075
+#: config/arm/arm.c:3082
 #, gcc-internal-format
 msgid "target CPU does not support THUMB instructions"
 msgstr "target CPU tidak mendukung instruksi THUMB"
 
-#: config/arm/arm.c:3125
+#: config/arm/arm.c:3132
 #, fuzzy, gcc-internal-format
 #| msgid "target CPU does not support ARM mode"
 msgid "target CPU does not support unaligned accesses"
@@ -56103,25 +56103,25 @@ msgstr "anggota statis %qD tidak dapat menjadi sebuah bit-field"
 msgid "width of bit-field %qD has non-integral type %qT"
 msgstr "bit-field %qD dengan tipe bukan integral"
 
-#: cp/decl2.c:1444
+#: cp/decl2.c:1443
 #, fuzzy, gcc-internal-format
 #| msgid "incomplete type %qT not allowed"
 msgid "incomplete type %qT is not mappable"
 msgstr "tipe tidak lengkap %qT tidak diijinkan"
 
-#: cp/decl2.c:1456
+#: cp/decl2.c:1455
 #, fuzzy, gcc-internal-format
 #| msgid "type %qs has virtual member functions"
 msgid "type %qT with virtual members is not mappable"
 msgstr "tipe %qs memiliki anggota fungsi virtual"
 
-#: cp/decl2.c:1468
+#: cp/decl2.c:1467
 #, fuzzy, gcc-internal-format
 #| msgid "%qD is not a variable"
 msgid "static field %qD is not mappable"
 msgstr "%qD bukan sebuah variabel"
 
-#: cp/decl2.c:1557
+#: cp/decl2.c:1556
 #, fuzzy, gcc-internal-format
 #| msgid "%qD is not a static data member of a class template"
 msgid "%q+D static data member inside of declare target directive"

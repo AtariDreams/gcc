@@ -1415,16 +1415,16 @@ msgid "using simple load CSE after register allocation"
 msgstr "レジスタ確保の後で命令を並べ直す"
 
 #. It's the compiler's fault.
-#: reload1.c:5997
+#: reload1.c:5998
 msgid "could not find a spill register"
 msgstr ""
 
 #. It's the compiler's fault.
-#: reload1.c:7879
+#: reload1.c:7880
 msgid "VOIDmode on an output"
 msgstr ""
 
-#: reload1.c:8612
+#: reload1.c:8613
 msgid "failure trying to reload:"
 msgstr "再ロードの試みに失敗しました:"
 
@@ -17983,12 +17983,12 @@ msgstr ""
 
 #: common.opt:2289
 #, no-c-format
-msgid "Enable common options for performing profile feedback directed optimizations."
+msgid "Remove prefix from absolute path before manging name for -fprofile-generate= and -fprofile-use=."
 msgstr ""
 
 #: common.opt:2293
 #, no-c-format
-msgid "Enable common options for performing profile feedback directed optimizations, and set -fprofile-dir=."
+msgid "Enable common options for generating profile info for profile feedback directed optimizations."
 msgstr ""
 
 #: common.opt:2297
@@ -27004,17 +27004,17 @@ msgstr "クラス %qs 内のレジスタを %<asm%> 再ロード中に見つけ�
 msgid "unable to find a register to spill in class %qs"
 msgstr ""
 
-#: reload1.c:4585
+#: reload1.c:4586
 #, gcc-internal-format
 msgid "%<asm%> operand requires impossible reload"
 msgstr "%<asm%> 被演算子は再ロード出来ないことが必要です"
 
-#: reload1.c:6002
+#: reload1.c:6003
 #, gcc-internal-format
 msgid "%<asm%> operand constraint incompatible with operand size"
 msgstr "%<asm%> 被演算子制約が被演算子サイズと互換性がありません"
 
-#: reload1.c:7880
+#: reload1.c:7881
 #, gcc-internal-format
 msgid "output operand is constant in %<asm%>"
 msgstr "出力被演算子が %<asm%> 内の定数です"
@@ -35017,12 +35017,12 @@ msgid "%s incompatible with %<-mword-relocations%>"
 msgstr "-G はデフォルトの PIC コードと共存できません"
 
 # 公式な名前は Thumb であり THUMB ではない
-#: config/arm/arm.c:3075
+#: config/arm/arm.c:3082
 #, gcc-internal-format
 msgid "target CPU does not support THUMB instructions"
 msgstr "ターゲット CPU は Thumb 命令をサポートしていません"
 
-#: config/arm/arm.c:3125
+#: config/arm/arm.c:3132
 #, fuzzy, gcc-internal-format
 msgid "target CPU does not support unaligned accesses"
 msgstr "ターゲット CPU は ARM モードをサポートしていません"
@@ -50816,22 +50816,22 @@ msgstr "静的メンバ %qD はビットフィールドに出来ません"
 msgid "width of bit-field %qD has non-integral type %qT"
 msgstr "ビットフィールドの幅が %qD 非整数型 %qT です"
 
-#: cp/decl2.c:1444
+#: cp/decl2.c:1443
 #, fuzzy, gcc-internal-format
 msgid "incomplete type %qT is not mappable"
 msgstr "不完全な型の単一化"
 
-#: cp/decl2.c:1456
+#: cp/decl2.c:1455
 #, fuzzy, gcc-internal-format
 msgid "type %qT with virtual members is not mappable"
 msgstr "メンバ関数の名前を欠いています"
 
-#: cp/decl2.c:1468
+#: cp/decl2.c:1467
 #, fuzzy, gcc-internal-format
 msgid "static field %qD is not mappable"
 msgstr "\"%s\" は正常なファイル名ではありません"
 
-#: cp/decl2.c:1557
+#: cp/decl2.c:1556
 #, gcc-internal-format
 msgid "%q+D static data member inside of declare target directive"
 msgstr ""

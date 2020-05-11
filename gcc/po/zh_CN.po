@@ -1446,16 +1446,16 @@ msgid "using simple load CSE after register allocation"
 msgstr "分配寄存器后重新调度指令"
 
 #. It's the compiler's fault.
-#: reload1.c:5997
+#: reload1.c:5998
 msgid "could not find a spill register"
 msgstr "找不到可溢出的寄存器"
 
 #. It's the compiler's fault.
-#: reload1.c:7879
+#: reload1.c:7880
 msgid "VOIDmode on an output"
 msgstr "输出有 VOIDmode"
 
-#: reload1.c:8612
+#: reload1.c:8613
 msgid "failure trying to reload:"
 msgstr "试图重新载入时失败："
 
@@ -29086,17 +29086,17 @@ msgstr "重新加载%<asm%>时在类%qs中找不到寄存器"
 msgid "unable to find a register to spill in class %qs"
 msgstr "在类%qs中找不到可溢出的寄存器"
 
-#: reload1.c:4585
+#: reload1.c:4586
 #, gcc-internal-format
 msgid "%<asm%> operand requires impossible reload"
 msgstr "%<asm%>要求不可能的重新加载"
 
-#: reload1.c:6002
+#: reload1.c:6003
 #, gcc-internal-format
 msgid "%<asm%> operand constraint incompatible with operand size"
 msgstr "%<asm%>操作数的约束与操作数大小不兼容"
 
-#: reload1.c:7880
+#: reload1.c:7881
 #, gcc-internal-format
 msgid "output operand is constant in %<asm%>"
 msgstr "%<asm%>的输出操作数是常量"
@@ -37499,12 +37499,12 @@ msgstr ""
 msgid "%s incompatible with %<-mword-relocations%>"
 msgstr "-fjni 与 -freduced-reflection 不兼容"
 
-#: config/arm/arm.c:3075
+#: config/arm/arm.c:3082
 #, gcc-internal-format
 msgid "target CPU does not support THUMB instructions"
 msgstr "目标 CPU 不支持 THUMB 指令"
 
-#: config/arm/arm.c:3125
+#: config/arm/arm.c:3132
 #, gcc-internal-format
 msgid "target CPU does not support unaligned accesses"
 msgstr "目标 CPU 不支持未对齐的访问"
@@ -54013,24 +54013,24 @@ msgstr "静态成员%qD不能是位段"
 msgid "width of bit-field %qD has non-integral type %qT"
 msgstr "位段%qD非整型"
 
-#: cp/decl2.c:1444
+#: cp/decl2.c:1443
 #, fuzzy, gcc-internal-format
 #| msgid "incomplete type %qT does not have member %qD"
 msgid "incomplete type %qT is not mappable"
 msgstr "不完全类型%qT没有成员%qD"
 
-#: cp/decl2.c:1456
+#: cp/decl2.c:1455
 #, fuzzy, gcc-internal-format
 #| msgid "type %qE has virtual member functions"
 msgid "type %qT with virtual members is not mappable"
 msgstr "类型%qE有虚成员函数"
 
-#: cp/decl2.c:1468
+#: cp/decl2.c:1467
 #, fuzzy, gcc-internal-format
 msgid "static field %qD is not mappable"
 msgstr "为 auto 变量%2$qE指定了%1$qs"
 
-#: cp/decl2.c:1557
+#: cp/decl2.c:1556
 #, fuzzy, gcc-internal-format
 msgid "%q+D static data member inside of declare target directive"
 msgstr "%qD不是类模板的非静态数据成员"
@@ -80913,9 +80913,6 @@ msgstr "未知的 TLS 模型 %qs"
 #, fuzzy
 #~ msgid "%<num_tasks%> expression must be integral"
 #~ msgstr "num_threads 表达式必须是整型的"
-
-#~ msgid "%qE attribute can only be applied to Java class definitions"
-#~ msgstr "只能为 Java 类定义应用%qE属性"
 
 #~ msgid "%qE is obsolete; g++ vtables are now COM-compatible by default"
 #~ msgstr "%qE已过时：g++ 的虚函数表现在默认与 COM 兼容"

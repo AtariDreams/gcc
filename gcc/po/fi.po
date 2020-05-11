@@ -1445,18 +1445,18 @@ msgid "using simple load CSE after register allocation"
 msgstr "Käytä rekistereitä argumenttien välittämiseen"
 
 #. It's the compiler's fault.
-#: reload1.c:5997
+#: reload1.c:5998
 #, fuzzy
 msgid "could not find a spill register"
 msgstr "Tiedostoa ”%s” ei löytynyt."
 
 #. It's the compiler's fault.
-#: reload1.c:7879
+#: reload1.c:7880
 #, fuzzy
 msgid "VOIDmode on an output"
 msgstr "Tulosterivit:"
 
-#: reload1.c:8612
+#: reload1.c:8613
 #, fuzzy
 msgid "failure trying to reload:"
 msgstr "_Lataa uudelleen"
@@ -16844,7 +16844,7 @@ msgstr ""
 
 #: common.opt:611
 #, no-c-format
-msgid "Warn when attempting to free a non-heap object."
+msgid "Disable -Wframe-larger-than= warning.  Equivalent to -Wframe-larger-than=<SIZE_MAX> or larger."
 msgstr ""
 
 #: common.opt:622
@@ -18269,12 +18269,12 @@ msgstr ""
 
 #: common.opt:2289
 #, no-c-format
-msgid "Enable common options for performing profile feedback directed optimizations."
+msgid "Remove prefix from absolute path before manging name for -fprofile-generate= and -fprofile-use=."
 msgstr ""
 
 #: common.opt:2293
 #, no-c-format
-msgid "Enable common options for performing profile feedback directed optimizations, and set -fprofile-dir=."
+msgid "Enable common options for generating profile info for profile feedback directed optimizations."
 msgstr ""
 
 #: common.opt:2297
@@ -27382,17 +27382,17 @@ msgstr "tunnistamaton rekisterinimi %qs"
 msgid "unable to find a register to spill in class %qs"
 msgstr "%qD esitelty extern-avainsanalla sisäkkäin"
 
-#: reload1.c:4585
+#: reload1.c:4586
 #, fuzzy, gcc-internal-format
 msgid "%<asm%> operand requires impossible reload"
 msgstr "%s: Tätä tiedostoa ei voitu varmuuskopioida"
 
-#: reload1.c:6002
+#: reload1.c:6003
 #, fuzzy, gcc-internal-format
 msgid "%<asm%> operand constraint incompatible with operand size"
 msgstr "%s: Tätä tiedostoa ei voitu varmuuskopioida"
 
-#: reload1.c:7880
+#: reload1.c:7881
 #, fuzzy, gcc-internal-format
 msgid "output operand is constant in %<asm%>"
 msgstr "virheellinen lvalue asm-tulosteessa %d"
@@ -35459,12 +35459,12 @@ msgstr ""
 msgid "%s incompatible with %<-mword-relocations%>"
 msgstr "Muodostin %qs"
 
-#: config/arm/arm.c:3075
+#: config/arm/arm.c:3082
 #, fuzzy, gcc-internal-format
 msgid "target CPU does not support THUMB instructions"
 msgstr "AAPCS ei tue valitsinta -mcaller-super-interworking"
 
-#: config/arm/arm.c:3125
+#: config/arm/arm.c:3132
 #, fuzzy, gcc-internal-format
 msgid "target CPU does not support unaligned accesses"
 msgstr "kohdemuoto ei tue äärettömyyttä"
@@ -51310,22 +51310,22 @@ msgstr "bittikentän %qD osoitetta ei voi ottaa"
 msgid "width of bit-field %qD has non-integral type %qT"
 msgstr "bittikentän %qs leveys ei ole kokonaislukuvakio"
 
-#: cp/decl2.c:1444
+#: cp/decl2.c:1443
 #, fuzzy, gcc-internal-format
 msgid "incomplete type %qT is not mappable"
 msgstr "luokalla %qT ei ole %qD-nimistä kenttää"
 
-#: cp/decl2.c:1456
+#: cp/decl2.c:1455
 #, fuzzy, gcc-internal-format
 msgid "type %qT with virtual members is not mappable"
 msgstr "tyypillä %qE on virtuaalisia jäsenfunktioita"
 
-#: cp/decl2.c:1468
+#: cp/decl2.c:1467
 #, fuzzy, gcc-internal-format
 msgid "static field %qD is not mappable"
 msgstr "polku puuttuu %qs:n jälkeen"
 
-#: cp/decl2.c:1557
+#: cp/decl2.c:1556
 #, fuzzy, gcc-internal-format
 msgid "%q+D static data member inside of declare target directive"
 msgstr "staattinen jäsenfunktio %q#D esitelty tyyppimääreillä"

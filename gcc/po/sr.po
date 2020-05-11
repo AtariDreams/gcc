@@ -1603,16 +1603,16 @@ msgid "using simple load CSE after register allocation"
 msgstr "Прераспореди инструкције после резервисања регистара"
 
 #. It's the compiler's fault.
-#: reload1.c:5997
+#: reload1.c:5998
 msgid "could not find a spill register"
 msgstr "нисам могао да нађем регистар просипања"
 
 #. It's the compiler's fault.
-#: reload1.c:7879
+#: reload1.c:7880
 msgid "VOIDmode on an output"
 msgstr "VOIDmode на излазу"
 
-#: reload1.c:8612
+#: reload1.c:8613
 #, fuzzy
 #| msgid "Failure trying to reload:"
 msgid "failure trying to reload:"
@@ -18444,7 +18444,7 @@ msgstr ""
 
 #: common.opt:611
 #, no-c-format
-msgid "Warn when attempting to free a non-heap object."
+msgid "Disable -Wframe-larger-than= warning.  Equivalent to -Wframe-larger-than=<SIZE_MAX> or larger."
 msgstr ""
 
 #: common.opt:622
@@ -29931,17 +29931,17 @@ msgstr "не могу да нађем регистар у класи %qs при 
 msgid "unable to find a register to spill in class %qs"
 msgstr "не могу да нађем регистар за просипање у класи %qs"
 
-#: reload1.c:4585
+#: reload1.c:4586
 #, gcc-internal-format
 msgid "%<asm%> operand requires impossible reload"
 msgstr "операнд у %<asm%> захтева немогуће поновно учитавање"
 
-#: reload1.c:6002
+#: reload1.c:6003
 #, gcc-internal-format
 msgid "%<asm%> operand constraint incompatible with operand size"
 msgstr "ограничење операнда у %<asm%> несагласно са величином операнда"
 
-#: reload1.c:7880
+#: reload1.c:7881
 #, gcc-internal-format
 msgid "output operand is constant in %<asm%>"
 msgstr "излазни операнд је константан у %<asm%>"
@@ -38731,12 +38731,12 @@ msgstr ""
 msgid "%s incompatible with %<-mword-relocations%>"
 msgstr "-fjni није сагласно са -freduced-reflection"
 
-#: config/arm/arm.c:3075
+#: config/arm/arm.c:3082
 #, gcc-internal-format
 msgid "target CPU does not support THUMB instructions"
 msgstr "циљни ЦПУ не подржава инструкције Тамба"
 
-#: config/arm/arm.c:3125
+#: config/arm/arm.c:3132
 #, fuzzy, gcc-internal-format
 #| msgid "target CPU does not support interworking"
 msgid "target CPU does not support unaligned accesses"
@@ -56150,24 +56150,24 @@ msgstr "статички члан %qD не може бити битско пољ
 msgid "width of bit-field %qD has non-integral type %qT"
 msgstr "битско поље %qD неинтегралног типа"
 
-#: cp/decl2.c:1444
+#: cp/decl2.c:1443
 #, fuzzy, gcc-internal-format
 #| msgid "incomplete type %qT does not have member %qD"
 msgid "incomplete type %qT is not mappable"
 msgstr "непотпун тип %qT нема члан %qD"
 
-#: cp/decl2.c:1456
+#: cp/decl2.c:1455
 #, fuzzy, gcc-internal-format
 #| msgid "type %qs has virtual member functions"
 msgid "type %qT with virtual members is not mappable"
 msgstr "тип %qs има виртуелне чланске функције"
 
-#: cp/decl2.c:1468
+#: cp/decl2.c:1467
 #, gcc-internal-format
 msgid "static field %qD is not mappable"
 msgstr ""
 
-#: cp/decl2.c:1557
+#: cp/decl2.c:1556
 #, gcc-internal-format
 msgid "%q+D static data member inside of declare target directive"
 msgstr ""

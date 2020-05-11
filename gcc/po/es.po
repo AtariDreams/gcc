@@ -1468,16 +1468,16 @@ msgid "using simple load CSE after register allocation"
 msgstr "Recalendariza las instrucciones después del alojamiento de registros."
 
 #. It's the compiler's fault.
-#: reload1.c:5997
+#: reload1.c:5998
 msgid "could not find a spill register"
 msgstr "no se puede encontrar un registro de vaciado"
 
 #. It's the compiler's fault.
-#: reload1.c:7879
+#: reload1.c:7880
 msgid "VOIDmode on an output"
 msgstr "modoVOID en una salida"
 
-#: reload1.c:8612
+#: reload1.c:8613
 msgid "failure trying to reload:"
 msgstr "falla al tratar de recargar:"
 
@@ -7150,6 +7150,11 @@ msgid "Specify maximum error replay depth during recursive diagnosis of a constr
 msgstr ""
 
 #: c-family/c.opt:1535
+#, no-c-format
+msgid "Specify maximum error replay depth during recursive diagnosis of a constraint satisfaction failure."
+msgstr ""
+
+#: c-family/c.opt:1462
 #, no-c-format
 msgid "Allow the arguments of the '?' operator to have different types."
 msgstr "Permite que los argumentos del operador '?' tengan tipos diferentes."
@@ -27822,17 +27827,17 @@ msgstr "no se puede encontrar un registro en la clase %qs al recargar %<asm%>"
 msgid "unable to find a register to spill in class %qs"
 msgstr "no se puede encontrar un registro para vaciar la clase %qs"
 
-#: reload1.c:4585
+#: reload1.c:4586
 #, gcc-internal-format
 msgid "%<asm%> operand requires impossible reload"
 msgstr "el operando %<asm%> requiere una recarga imposible"
 
-#: reload1.c:6002
+#: reload1.c:6003
 #, gcc-internal-format
 msgid "%<asm%> operand constraint incompatible with operand size"
 msgstr "la restricción del operando %<asm%> es incompatible con el tamaño del operando"
 
-#: reload1.c:7880
+#: reload1.c:7881
 #, gcc-internal-format
 msgid "output operand is constant in %<asm%>"
 msgstr "el operando de salida es constante en %<asm%>"
@@ -36448,12 +36453,12 @@ msgstr "%s solo admite códico no pic en objetivos de perfil M con instrucción 
 msgid "%s incompatible with %<-mword-relocations%>"
 msgstr "-fjni es incompatible con el -freduced-reflection"
 
-#: config/arm/arm.c:3075
+#: config/arm/arm.c:3082
 #, gcc-internal-format
 msgid "target CPU does not support THUMB instructions"
 msgstr "el CPU objetivo no admite las instrucciones THUMB"
 
-#: config/arm/arm.c:3125
+#: config/arm/arm.c:3132
 #, gcc-internal-format
 msgid "target CPU does not support unaligned accesses"
 msgstr "el CPU objetivo no admite accesos sin alinear"
@@ -53295,25 +53300,25 @@ msgstr "el miembro static %qD no puede ser un campo de bits"
 msgid "width of bit-field %qD has non-integral type %qT"
 msgstr "la anchura del campo de bits %qD es del tipo %qT que no integral"
 
-#: cp/decl2.c:1444
+#: cp/decl2.c:1443
 #, fuzzy, gcc-internal-format
 #| msgid "incomplete type %qT not allowed"
 msgid "incomplete type %qT is not mappable"
 msgstr "no se permite el tipo incompleto %qT"
 
-#: cp/decl2.c:1456
+#: cp/decl2.c:1455
 #, fuzzy, gcc-internal-format
 #| msgid "type %qE has virtual member functions"
 msgid "type %qT with virtual members is not mappable"
 msgstr "el tipo %qE tiene funciones miembro virtuales"
 
-#: cp/decl2.c:1468
+#: cp/decl2.c:1467
 #, fuzzy, gcc-internal-format
 #| msgid "'%s' at %C is not a variable"
 msgid "static field %qD is not mappable"
 msgstr "'%s' en %C no es una variable"
 
-#: cp/decl2.c:1557
+#: cp/decl2.c:1556
 #, fuzzy, gcc-internal-format
 #| msgid "%qD is not a static data member of a class template"
 msgid "%q+D static data member inside of declare target directive"

@@ -1493,17 +1493,17 @@ msgid "using simple load CSE after register allocation"
 msgstr "Αποτυχία δέσμευσης πόρων συστήματος"
 
 #. It's the compiler's fault.
-#: reload1.c:5997
+#: reload1.c:5998
 #, fuzzy
 msgid "could not find a spill register"
 msgstr "αδυναμία εύρεσης βρόχου"
 
 #. It's the compiler's fault.
-#: reload1.c:7879
+#: reload1.c:7880
 msgid "VOIDmode on an output"
 msgstr ""
 
-#: reload1.c:8612
+#: reload1.c:8613
 msgid "failure trying to reload:"
 msgstr ""
 
@@ -7281,40 +7281,45 @@ msgstr ""
 
 #: c-family/c.opt:1535
 #, no-c-format
-msgid "Allow the arguments of the '?' operator to have different types."
+msgid "Specify maximum error replay depth during recursive diagnosis of a constraint satisfaction failure."
 msgstr ""
 
 #: c-family/c.opt:1543
 #, no-c-format
-msgid "-fconst-string-class=<name>\tUse class <name> for constant strings."
+msgid "Allow the arguments of the '?' operator to have different types."
 msgstr ""
 
 #: c-family/c.opt:1547
 #, no-c-format
-msgid "-fconstexpr-depth=<number>\tSpecify maximum constexpr recursion depth."
+msgid "-fconst-string-class=<name>\tUse class <name> for constant strings."
 msgstr ""
 
 #: c-family/c.opt:1551
 #, no-c-format
-msgid "-fconstexpr-cache-depth=<number>\tSpecify maximum constexpr recursion cache depth."
+msgid "-fconstexpr-depth=<number>\tSpecify maximum constexpr recursion depth."
 msgstr ""
 
 #: c-family/c.opt:1555
 #, no-c-format
-msgid "-fconstexpr-loop-limit=<number>\tSpecify maximum constexpr loop iteration count."
+msgid "-fconstexpr-cache-depth=<number>\tSpecify maximum constexpr recursion cache depth."
 msgstr ""
 
 #: c-family/c.opt:1559
 #, no-c-format
-msgid "-fconstexpr-ops-limit=<number>\tSpecify maximum number of constexpr operations during a single constexpr evaluation."
+msgid "-fconstexpr-loop-limit=<number>\tSpecify maximum constexpr loop iteration count."
 msgstr ""
 
 #: c-family/c.opt:1563
 #, no-c-format
-msgid "Enable C++ coroutines (experimental)."
+msgid "-fconstexpr-ops-limit=<number>\tSpecify maximum number of constexpr operations during a single constexpr evaluation."
 msgstr ""
 
 #: c-family/c.opt:1567
+#, no-c-format
+msgid "Enable C++ coroutines (experimental)."
+msgstr ""
+
+#: c-family/c.opt:1494
 #, no-c-format
 msgid "Emit debug annotations during preprocessing."
 msgstr ""
@@ -7449,7 +7454,7 @@ msgstr ""
 msgid "Enable C++ header module (experimental)."
 msgstr ""
 
-#: c-family/c.opt:1721
+#: c-family/c.opt:1725
 #, no-c-format
 msgid "Member functions defined within their class are inline in module purview."
 msgstr ""
@@ -7494,12 +7499,12 @@ msgstr ""
 msgid "Note Compiled Module Interface pathnames."
 msgstr ""
 
-#: c-family/c.opt:1761
+#: c-family/c.opt:1765
 #, no-c-format
 msgid "Note Compiled Module Interface pathname of a specific module or header-unit."
 msgstr ""
 
-#: c-family/c.opt:1765
+#: c-family/c.opt:1769
 #, no-c-format
 msgid "fmax-include-depth=<number> Set the maximum depth of the nested #include."
 msgstr ""
@@ -16793,27 +16798,27 @@ msgstr ""
 
 #: common.opt:611
 #, no-c-format
-msgid "Warn when attempting to free a non-heap object."
+msgid "Disable -Wframe-larger-than= warning.  Equivalent to -Wframe-larger-than=<SIZE_MAX> or larger."
 msgstr ""
 
 #: common.opt:622
 #, no-c-format
-msgid "Warn when a switch case falls through."
+msgid "Warn when a function cannot be expanded to HSAIL."
 msgstr ""
 
 #: common.opt:626
 #, no-c-format
-msgid "Warn when an inlined function cannot be inlined."
+msgid "Warn when a switch case falls through."
 msgstr ""
 
 #: common.opt:630
 #, no-c-format
-msgid "Warn when an atomic memory model parameter is known to be outside the valid range."
+msgid "Warn when an inlined function cannot be inlined."
 msgstr ""
 
 #: common.opt:637
 #, no-c-format
-msgid "-Wlarger-than=<byte-size>\tWarn if an object's size exceeds <byte-size>."
+msgid "Warn when an atomic memory model parameter is known to be outside the valid range."
 msgstr ""
 
 #: common.opt:641
@@ -16823,10 +16828,20 @@ msgstr ""
 
 #: common.opt:645
 #, no-c-format
-msgid "Warn if comparing pointer parameter with nonnull attribute with NULL."
+msgid "-Wlarger-than=<byte-size>\tWarn if an object's size exceeds <byte-size>."
 msgstr ""
 
 #: common.opt:649
+#, no-c-format
+msgid "Disable -Wlarger-than= warning.  Equivalent to -Wlarger-than=<SIZE_MAX> or larger."
+msgstr ""
+
+#: common.opt:644
+#, no-c-format
+msgid "Warn if comparing pointer parameter with nonnull attribute with NULL."
+msgstr ""
+
+#: common.opt:648
 #, no-c-format
 msgid "Warn if dereferencing a NULL pointer may lead to erroneous or undefined behavior."
 msgstr ""
@@ -17416,22 +17431,22 @@ msgstr ""
 msgid "-ftabstop=<number>      Distance between tab stops for column reporting."
 msgstr ""
 
-#: common.opt:1411
+#: common.opt:1423
 #, no-c-format
 msgid "Show stack depths of events in paths."
 msgstr ""
 
-#: common.opt:1415
+#: common.opt:1427
 #, no-c-format
 msgid "Set minimum width of left margin of source code when showing source."
 msgstr ""
 
-#: common.opt:1419
+#: common.opt:1431
 #, no-c-format
 msgid "-fdisable-[tree|rtl|ipa]-<pass>=range1+range2\tDisable an optimization pass."
 msgstr ""
 
-#: common.opt:1423
+#: common.opt:1435
 #, no-c-format
 msgid "-fenable-[tree|rtl|ipa]-<pass>=range1+range2\tEnable an optimization pass."
 msgstr ""
@@ -17461,12 +17476,12 @@ msgstr ""
 msgid "Collect and dump debug information into temporary file if ICE in C/C++ compiler occurred."
 msgstr ""
 
-#: common.opt:1451
+#: common.opt:1463
 #, no-c-format
 msgid "Dump detailed information on GCC's internal representation of source code locations."
 msgstr ""
 
-#: common.opt:1455
+#: common.opt:1467
 #, no-c-format
 msgid "Dump optimization passes."
 msgstr ""
@@ -17751,12 +17766,12 @@ msgstr ""
 msgid "-fcf-protection=[full|branch|return|none|check]\tInstrument functions with checks to verify jump/call/return control-flow transfer instructions have valid targets."
 msgstr ""
 
-#: common.opt:1810
+#: common.opt:1822
 #, no-c-format
 msgid "Instrument function entry and exit with profiling calls."
 msgstr ""
 
-#: common.opt:1814
+#: common.opt:1826
 #, no-c-format
 msgid "-finstrument-functions-exclude-function-list=name,...\tDo not instrument listed functions."
 msgstr ""
@@ -17771,7 +17786,7 @@ msgstr ""
 msgid "Perform interprocedural constant propagation."
 msgstr ""
 
-#: common.opt:1826
+#: common.opt:1838
 #, no-c-format
 msgid "Perform cloning to make Interprocedural constant propagation stronger."
 msgstr ""
@@ -18196,7 +18211,7 @@ msgstr ""
 msgid "Enable common options for generating profile info for profile feedback directed optimizations."
 msgstr ""
 
-#: common.opt:2273
+#: common.opt:2289
 #, no-c-format
 msgid "Enable common options for generating profile info for profile feedback directed optimizations, and set -fprofile-dir=."
 msgstr ""
@@ -18266,7 +18281,7 @@ msgstr ""
 msgid "Tell DSE that the storage for a C++ object is dead when the constructor starts and when the destructor finishes."
 msgstr ""
 
-#: common.opt:2349
+#: common.opt:2365
 #, no-c-format
 msgid "-flive-patching=[inline-only-static|inline-clone]\tControl IPA optimizations to provide a safe compilation for live-patching.  At the same time, provides multiple-level control on the enabled IPA optimizations."
 msgstr ""
@@ -20285,37 +20300,37 @@ msgstr ""
 
 #: params.opt:942
 #, no-c-format
-msgid "The maximum number of SSA_NAME assignments to follow in determining a value."
+msgid "Maximum number of artificial accesses to enable forward propagation that Scalar Replacement of Aggregates will keep for one local variable."
 msgstr ""
 
 #: params.opt:946
 #, no-c-format
-msgid "The lower bound for a buffer to be considered for stack smashing protection."
+msgid "The maximum number of SSA_NAME assignments to follow in determining a value."
 msgstr ""
 
 #: params.opt:950
 #, no-c-format
-msgid "Size of the stack guard expressed as a power of two in bytes."
+msgid "The lower bound for a buffer to be considered for stack smashing protection."
 msgstr ""
 
 #: params.opt:954
 #, no-c-format
-msgid "Interval in which to probe the stack expressed as a power of two in bytes."
+msgid "Size of the stack guard expressed as a power of two in bytes."
 msgstr ""
 
 #: params.opt:958
 #, no-c-format
-msgid "Allow the store merging pass to introduce unaligned stores if it is legal to do so."
+msgid "Interval in which to probe the stack expressed as a power of two in bytes."
 msgstr ""
 
 #: params.opt:962
 #, no-c-format
-msgid "Maximum size of a single store merging region in bytes."
+msgid "Allow the store merging pass to introduce unaligned stores if it is legal to do so."
 msgstr ""
 
 #: params.opt:966
 #, no-c-format
-msgid "The maximum ratio between array size and switch branches for a switch conversion to take place."
+msgid "Maximum size of a single store merging region in bytes."
 msgstr ""
 
 #: params.opt:970
@@ -20350,42 +20365,42 @@ msgstr ""
 
 #: params.opt:994
 #, no-c-format
-msgid "Size in bytes after which thread-local aggregates should be instrumented with the logging functions instead of save/restore pairs."
+msgid "The maximum ratio between array size and switch branches for a switch conversion to take place."
 msgstr ""
 
 #: params.opt:998
 #, no-c-format
-msgid "The percentage of function, weighted by execution frequency, that must be covered by trace formation. Used when profile feedback is not available."
+msgid "Size in bytes after which thread-local aggregates should be instrumented with the logging functions instead of save/restore pairs."
 msgstr ""
 
 #: params.opt:1002
 #, no-c-format
-msgid "The percentage of function, weighted by execution frequency, that must be covered by trace formation. Used when profile feedback is available."
+msgid "The percentage of function, weighted by execution frequency, that must be covered by trace formation. Used when profile feedback is not available."
 msgstr ""
 
 #: params.opt:1006
 #, no-c-format
-msgid "Maximal code growth caused by tail duplication (in percent)."
+msgid "The percentage of function, weighted by execution frequency, that must be covered by trace formation. Used when profile feedback is available."
 msgstr ""
 
 #: params.opt:1010
 #, no-c-format
-msgid "Stop forward growth if the probability of best edge is less than this threshold (in percent). Used when profile feedback is not available."
+msgid "Maximal code growth caused by tail duplication (in percent)."
 msgstr ""
 
 #: params.opt:1014
 #, no-c-format
-msgid "Stop forward growth if the probability of best edge is less than this threshold (in percent). Used when profile feedback is available."
+msgid "Stop forward growth if the probability of best edge is less than this threshold (in percent). Used when profile feedback is not available."
 msgstr ""
 
 #: params.opt:1018
 #, no-c-format
-msgid "Stop reverse growth if the reverse probability of best edge is less than this threshold (in percent)."
+msgid "Stop forward growth if the probability of best edge is less than this threshold (in percent). Used when profile feedback is available."
 msgstr ""
 
 #: params.opt:1022
 #, no-c-format
-msgid "Set the maximum number of instructions executed in parallel in reassociated tree.  If 0, use the target dependent heuristic."
+msgid "Stop reverse growth if the reverse probability of best edge is less than this threshold (in percent)."
 msgstr ""
 
 #: params.opt:1026
@@ -20400,70 +20415,75 @@ msgstr ""
 
 #: params.opt:1034
 #, no-c-format
-msgid "Maximum number of nested calls to search for control dependencies during uninitialized variable analysis."
+msgid "Set the maximum number of instructions executed in parallel in reassociated tree.  If 0, use the target dependent heuristic."
 msgstr ""
 
 #: params.opt:1038
 #, no-c-format
-msgid "Instruction accounted for function prologue, epilogue and other overhead."
+msgid "Maximum number of nested calls to search for control dependencies during uninitialized variable analysis."
 msgstr ""
 
 #: params.opt:1042
 #, no-c-format
-msgid "Time accounted for function prologue, epilogue and other overhead."
+msgid "Instruction accounted for function prologue, epilogue and other overhead."
 msgstr ""
 
 #: params.opt:1046
 #, no-c-format
-msgid "Instruction accounted for function thunk overhead."
+msgid "Time accounted for function prologue, epilogue and other overhead."
 msgstr ""
 
 #: params.opt:1050
 #, no-c-format
-msgid "Time accounted for function thunk overhead."
+msgid "Instruction accounted for function thunk overhead."
 msgstr ""
 
 #: params.opt:1054
 #, no-c-format
-msgid "The denominator n of fraction 1/n of the number of profiled runs of the entire program below which the execution count of a basic block must be in order for the basic block to be considered unlikely."
+msgid "Time accounted for function thunk overhead."
 msgstr ""
 
 #: params.opt:1058
 #, no-c-format
-msgid "Maximum unroll factor for the unroll-and-jam transformation."
+msgid "The denominator n of fraction 1/n of the number of profiled runs of the entire program below which the execution count of a basic block must be in order for the basic block to be considered unlikely."
 msgstr ""
 
 #: params.opt:1062
 #, no-c-format
-msgid "Minimum percentage of memrefs that must go away for unroll-and-jam to be considered profitable."
+msgid "Maximum unroll factor for the unroll-and-jam transformation."
 msgstr ""
 
 #: params.opt:1066
 #, no-c-format
-msgid "Use direct poisoning/unpoisoning instructions for variables smaller or equal to this number."
+msgid "Minimum percentage of memrefs that must go away for unroll-and-jam to be considered profitable."
 msgstr ""
 
 #: params.opt:1070
 #, no-c-format
-msgid "Whether to use canonical types."
+msgid "Use direct poisoning/unpoisoning instructions for variables smaller or equal to this number."
 msgstr ""
 
 #: params.opt:1074
 #, no-c-format
-msgid "Enable loop epilogue vectorization using smaller vector size."
+msgid "Whether to use canonical types."
 msgstr ""
 
 #: params.opt:1078
 #, no-c-format
-msgid "Maximum number of loop peels to enhance alignment of data references in a loop."
+msgid "Enable loop epilogue vectorization using smaller vector size."
 msgstr ""
 
 #: params.opt:1082
 #, no-c-format
-msgid "Bound on number of runtime checks inserted by the vectorizer's loop versioning for alias check."
+msgid "Maximum number of loop peels to enhance alignment of data references in a loop."
 msgstr ""
 
 #: params.opt:1086
+#, no-c-format
+msgid "Bound on number of runtime checks inserted by the vectorizer's loop versioning for alias check."
+msgstr ""
+
+#: params.opt:965
 #, no-c-format
 msgid "Bound on number of runtime checks inserted by the vectorizer's loop versioning for alignment check."
 msgstr ""
@@ -27316,17 +27336,17 @@ msgstr "άγνωστος χαρακτήρας στο πεδίο `%s' της κα
 msgid "unable to find a register to spill in class %qs"
 msgstr ""
 
-#: reload1.c:4585
+#: reload1.c:4586
 #, gcc-internal-format
 msgid "%<asm%> operand requires impossible reload"
 msgstr ""
 
-#: reload1.c:6002
+#: reload1.c:6003
 #, gcc-internal-format
 msgid "%<asm%> operand constraint incompatible with operand size"
 msgstr ""
 
-#: reload1.c:7880
+#: reload1.c:7881
 #, gcc-internal-format
 msgid "output operand is constant in %<asm%>"
 msgstr ""
@@ -35362,12 +35382,12 @@ msgstr ""
 msgid "%s incompatible with %<-mword-relocations%>"
 msgstr ""
 
-#: config/arm/arm.c:3075
+#: config/arm/arm.c:3082
 #, gcc-internal-format
 msgid "target CPU does not support THUMB instructions"
 msgstr ""
 
-#: config/arm/arm.c:3125
+#: config/arm/arm.c:3132
 #, fuzzy, gcc-internal-format
 msgid "target CPU does not support unaligned accesses"
 msgstr "μη έγκυρη ώρα της μέρας"
@@ -51227,22 +51247,22 @@ msgstr "ο διαχωριστής δε μπορεί να είναι κενός"
 msgid "width of bit-field %qD has non-integral type %qT"
 msgstr "Ο κατάλογος `%s' δεν είναι προσιτός."
 
-#: cp/decl2.c:1444
+#: cp/decl2.c:1443
 #, fuzzy, gcc-internal-format
 msgid "incomplete type %qT is not mappable"
 msgstr "η επιστρεφόμενη τιμή της `%s' δεν είναι `int'"
 
-#: cp/decl2.c:1456
+#: cp/decl2.c:1455
 #, gcc-internal-format
 msgid "type %qT with virtual members is not mappable"
 msgstr ""
 
-#: cp/decl2.c:1468
+#: cp/decl2.c:1467
 #, gcc-internal-format
 msgid "static field %qD is not mappable"
 msgstr ""
 
-#: cp/decl2.c:1557
+#: cp/decl2.c:1556
 #, gcc-internal-format
 msgid "%q+D static data member inside of declare target directive"
 msgstr ""
@@ -53977,7 +53997,7 @@ msgstr ""
 msgid "keyword %<export%> is deprecated, and is ignored"
 msgstr ""
 
-#: cp/parser.c:16606
+#: cp/parser.c:16651
 #, gcc-internal-format
 msgid "keyword %<export%> is enabled with %<-fmodules-ts%>"
 msgstr ""
@@ -61983,7 +62003,7 @@ msgstr "αυτός είναι ο πρώτος ορισμός"
 msgid "LEN attribute at %C in a STRUCTURE definition"
 msgstr ""
 
-#: fortran/decl.c:5513
+#: fortran/decl.c:5538
 #, gcc-internal-format, gfc-internal-format
 msgid "Component with LEN attribute at %C must be INTEGER"
 msgstr ""

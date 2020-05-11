@@ -1418,16 +1418,16 @@ msgid "using simple load CSE after register allocation"
 msgstr "指派暫存器後重新調度指令"
 
 #. It's the compiler's fault.
-#: reload1.c:5997
+#: reload1.c:5998
 msgid "could not find a spill register"
 msgstr "找不到可捨出的暫存器"
 
 #. It's the compiler's fault.
-#: reload1.c:7879
+#: reload1.c:7880
 msgid "VOIDmode on an output"
 msgstr "輸出有 VOIDmode"
 
-#: reload1.c:8612
+#: reload1.c:8613
 #, fuzzy
 msgid "failure trying to reload:"
 msgstr "失敗嘗試重新載入："
@@ -28434,17 +28434,17 @@ msgstr "can%'t 尋找暫存器在中類別 %qs 當重新載入 %<asm%>"
 msgid "unable to find a register to spill in class %qs"
 msgstr "在類別 %qs 中找不到可捨出的暫存器"
 
-#: reload1.c:4585
+#: reload1.c:4586
 #, gcc-internal-format
 msgid "%<asm%> operand requires impossible reload"
 msgstr "%<asm%> 要求不可能的重新載入"
 
-#: reload1.c:6002
+#: reload1.c:6003
 #, gcc-internal-format
 msgid "%<asm%> operand constraint incompatible with operand size"
 msgstr "%<asm%> 運算元的約束與運算元大小不相容"
 
-#: reload1.c:7880
+#: reload1.c:7881
 #, gcc-internal-format
 msgid "output operand is constant in %<asm%>"
 msgstr "%<asm%> 的輸出運算元是常數"
@@ -36691,12 +36691,12 @@ msgstr ""
 msgid "%s incompatible with %<-mword-relocations%>"
 msgstr "-fjni 是不相容的與 -freduced-reflection"
 
-#: config/arm/arm.c:3075
+#: config/arm/arm.c:3082
 #, gcc-internal-format
 msgid "target CPU does not support THUMB instructions"
 msgstr "目的 CPU 不支援 THUMB 指令"
 
-#: config/arm/arm.c:3125
+#: config/arm/arm.c:3132
 #, fuzzy, gcc-internal-format
 msgid "target CPU does not support unaligned accesses"
 msgstr "目標 CPU 不支援 unaligned 存取"
@@ -53021,23 +53021,23 @@ msgstr "靜態成員 %qD 不能是位元段"
 msgid "width of bit-field %qD has non-integral type %qT"
 msgstr "寬度的 bit-field %qD 有 non-integral 型態 %qT"
 
-#: cp/decl2.c:1444
+#: cp/decl2.c:1443
 #, fuzzy, gcc-internal-format
 #| msgid "incomplete type %qT does not have member %qD"
 msgid "incomplete type %qT is not mappable"
 msgstr "不完全類型 %qT 沒有成員 %qD"
 
-#: cp/decl2.c:1456
+#: cp/decl2.c:1455
 #, fuzzy, gcc-internal-format
 msgid "type %qT with virtual members is not mappable"
 msgstr "型態 %qE 有虛擬成員函式"
 
-#: cp/decl2.c:1468
+#: cp/decl2.c:1467
 #, fuzzy, gcc-internal-format
 msgid "static field %qD is not mappable"
 msgstr "『%s』於 %C 並非變數"
 
-#: cp/decl2.c:1557
+#: cp/decl2.c:1556
 #, fuzzy, gcc-internal-format
 msgid "%q+D static data member inside of declare target directive"
 msgstr "%qD 並非靜態資料成員的類別模板"

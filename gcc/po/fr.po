@@ -1509,16 +1509,16 @@ msgid "using simple load CSE after register allocation"
 msgstr "utilisation du chargement CSE simple après l'allocation du registre"
 
 #. It's the compiler's fault.
-#: reload1.c:5997
+#: reload1.c:5998
 msgid "could not find a spill register"
 msgstr "n'a pu trouver un registre de déversement"
 
 #. It's the compiler's fault.
-#: reload1.c:7879
+#: reload1.c:7880
 msgid "VOIDmode on an output"
 msgstr "mode VOID sur une sortie"
 
-#: reload1.c:8612
+#: reload1.c:8613
 msgid "failure trying to reload:"
 msgstr "échec en essayant de recharger:"
 
@@ -7075,6 +7075,11 @@ msgid "Specify maximum error replay depth during recursive diagnosis of a constr
 msgstr "Spécifier la profondeur maximum de rejeu des erreurs durant le diagnostique récursif d'une erreur de respect d'une contrainte."
 
 #: c-family/c.opt:1535
+#, no-c-format
+msgid "Specify maximum error replay depth during recursive diagnosis of a constraint satisfaction failure."
+msgstr "Spécifier la profondeur maximum de rejeu des erreurs durant le diagnostique récursif d'une erreur de respect d'une contrainte."
+
+#: c-family/c.opt:1462
 #, no-c-format
 msgid "Allow the arguments of the '?' operator to have different types."
 msgstr "Permettre aux arguments de l'opérateur « ? » d'avoir des types différents."
@@ -16586,6 +16591,11 @@ msgstr "Désactive l'avertissement -Wframe-larger-than=.  Équivalent à -Wframe
 
 #: common.opt:611
 #, no-c-format
+msgid "Disable -Wframe-larger-than= warning.  Equivalent to -Wframe-larger-than=<SIZE_MAX> or larger."
+msgstr "Désactive l'avertissement -Wframe-larger-than=.  Équivalent à -Wframe-larger-than=<SIZE_MAX> ou plus grand."
+
+#: common.opt:610
+#, no-c-format
 msgid "Warn when attempting to free a non-heap object."
 msgstr "Avertir lors d'une tentative de libérer un objet qui n'est pas sur le tas."
 
@@ -20080,6 +20090,11 @@ msgid "Maximum number of artificial accesses to enable forward propagation that 
 msgstr "Nombre maximum d'accès artificiels pour activer la propagation vers l'avant que le remplacement scalaire d'agrégats gardera pour une variable locale."
 
 #: params.opt:942
+#, no-c-format
+msgid "Maximum number of artificial accesses to enable forward propagation that Scalar Replacement of Aggregates will keep for one local variable."
+msgstr "Nombre maximum d'accès artificiels pour activer la propagation vers l'avant que le remplacement scalaire d'agrégats gardera pour une variable locale."
+
+#: params.opt:853
 #, no-c-format
 msgid "The maximum number of SSA_NAME assignments to follow in determining a value."
 msgstr "Le nombre maximum d'affectations SSA_NAME à suivre en déterminant une valeur."
@@ -27035,17 +27050,17 @@ msgstr "impossible de trouver un registre dans la classe %qs durant le rechargem
 msgid "unable to find a register to spill in class %qs"
 msgstr "impossible de trouver un registre de classe %qs à déverser"
 
-#: reload1.c:4585
+#: reload1.c:4586
 #, gcc-internal-format
 msgid "%<asm%> operand requires impossible reload"
 msgstr "l'opérande %<asm%> requiert un rechargement impossible"
 
-#: reload1.c:6002
+#: reload1.c:6003
 #, gcc-internal-format
 msgid "%<asm%> operand constraint incompatible with operand size"
 msgstr "la contrainte de l'opérande %<asm%> est incompatible avec la taille de l'opérande"
 
-#: reload1.c:7880
+#: reload1.c:7881
 #, gcc-internal-format
 msgid "output operand is constant in %<asm%>"
 msgstr "l'opérande de sortie est une constante dans %<asm%>"
@@ -35068,12 +35083,12 @@ msgstr "%s ne supporte que du code non pic sur les cibles M-profile"
 msgid "%s incompatible with %<-mword-relocations%>"
 msgstr "%s est incompatible avec %<-mword-relocations%>"
 
-#: config/arm/arm.c:3075
+#: config/arm/arm.c:3082
 #, gcc-internal-format
 msgid "target CPU does not support THUMB instructions"
 msgstr "le processeur cible ne supporte pas les instructions THUMB"
 
-#: config/arm/arm.c:3125
+#: config/arm/arm.c:3132
 #, gcc-internal-format
 msgid "target CPU does not support unaligned accesses"
 msgstr "le processeur cible ne supporte pas les accès non alignés"
@@ -50858,22 +50873,22 @@ msgstr "le membre statique %qD ne peut pas être un champ de bits"
 msgid "width of bit-field %qD has non-integral type %qT"
 msgstr "la largeur du champ de bits %qD a le type non entier %qT"
 
-#: cp/decl2.c:1444
+#: cp/decl2.c:1443
 #, gcc-internal-format
 msgid "incomplete type %qT is not mappable"
 msgstr "le type incomplet %qT ne peut pas avoir de correspondance (mappable)"
 
-#: cp/decl2.c:1456
+#: cp/decl2.c:1455
 #, gcc-internal-format
 msgid "type %qT with virtual members is not mappable"
 msgstr "le type %qT avec des membres virtuelles ne peut pas avoir de correspondance (mappable)"
 
-#: cp/decl2.c:1468
+#: cp/decl2.c:1467
 #, gcc-internal-format
 msgid "static field %qD is not mappable"
 msgstr "le champ statique %qD ne peut pas avoir de correspondance (mappable)"
 
-#: cp/decl2.c:1557
+#: cp/decl2.c:1556
 #, gcc-internal-format
 msgid "%q+D static data member inside of declare target directive"
 msgstr "membre de donnée statique %q+D à l'intérieur de la directive de déclaration de cible"

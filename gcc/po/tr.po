@@ -1583,16 +1583,16 @@ msgid "using simple load CSE after register allocation"
 msgstr "Yazmaç tahsisinden sonra komutları yeniden zamanlar"
 
 #. It's the compiler's fault.
-#: reload1.c:5997
+#: reload1.c:5998
 msgid "could not find a spill register"
 msgstr "bir döküm yazmacı bulunamadı"
 
 #. It's the compiler's fault.
-#: reload1.c:7879
+#: reload1.c:7880
 msgid "VOIDmode on an output"
 msgstr "bir çıktıda VOIDmode"
 
-#: reload1.c:8612
+#: reload1.c:8613
 msgid "failure trying to reload:"
 msgstr "yeniden yükleme denemesi başarısız:"
 
@@ -18551,7 +18551,7 @@ msgstr ""
 
 #: common.opt:611
 #, no-c-format
-msgid "Warn when attempting to free a non-heap object."
+msgid "Disable -Wframe-larger-than= warning.  Equivalent to -Wframe-larger-than=<SIZE_MAX> or larger."
 msgstr ""
 
 #: common.opt:622
@@ -22488,7 +22488,7 @@ msgstr ""
 
 #: params.opt:942
 #, no-c-format
-msgid "The maximum number of SSA_NAME assignments to follow in determining a value."
+msgid "Maximum number of artificial accesses to enable forward propagation that Scalar Replacement of Aggregates will keep for one local variable."
 msgstr ""
 
 #: params.opt:946
@@ -30070,17 +30070,17 @@ msgstr "%<asm%> yeniden yüklenirken sınıf %qs içinde bir yazmaç bulunamıyo
 msgid "unable to find a register to spill in class %qs"
 msgstr "%qs sınıfı içinde dökülecek bir yazmaç bulunamadı"
 
-#: reload1.c:4585
+#: reload1.c:4586
 #, gcc-internal-format
 msgid "%<asm%> operand requires impossible reload"
 msgstr "%<asm%> terimi imkansız yeniden yükleme gerektiriyor"
 
-#: reload1.c:6002
+#: reload1.c:6003
 #, gcc-internal-format
 msgid "%<asm%> operand constraint incompatible with operand size"
 msgstr "%<asm%> teriminin kısıtı terim boyutu ile uyumsuz"
 
-#: reload1.c:7880
+#: reload1.c:7881
 #, gcc-internal-format
 msgid "output operand is constant in %<asm%>"
 msgstr "çıktı terimi %<asm%> içindeki bir sabit"
@@ -38883,12 +38883,12 @@ msgstr ""
 msgid "%s incompatible with %<-mword-relocations%>"
 msgstr "-G öntanımlı olan PIC kodu ile uyumsuz"
 
-#: config/arm/arm.c:3075
+#: config/arm/arm.c:3082
 #, gcc-internal-format
 msgid "target CPU does not support THUMB instructions"
 msgstr "hedef işlemci THUMB komutlarını desteklemiyor"
 
-#: config/arm/arm.c:3125
+#: config/arm/arm.c:3132
 #, fuzzy, gcc-internal-format
 #| msgid "target CPU does not support interworking"
 msgid "target CPU does not support unaligned accesses"
@@ -56358,25 +56358,25 @@ msgstr "static üye %qD bir bit alanı olamaz"
 msgid "width of bit-field %qD has non-integral type %qT"
 msgstr "%qD dizisinin boyutu tümlemeyen %qT türünde"
 
-#: cp/decl2.c:1444
+#: cp/decl2.c:1443
 #, fuzzy, gcc-internal-format
 #| msgid "incomplete type %qT does not have member %qD"
 msgid "incomplete type %qT is not mappable"
 msgstr "içi boş tür %qT üye %qD'yi içermiyor"
 
-#: cp/decl2.c:1456
+#: cp/decl2.c:1455
 #, fuzzy, gcc-internal-format
 #| msgid "type %qE has virtual member functions"
 msgid "type %qT with virtual members is not mappable"
 msgstr "%qE türü sanal üye işlevlere sahip"
 
-#: cp/decl2.c:1468
+#: cp/decl2.c:1467
 #, fuzzy, gcc-internal-format
 #| msgid "Symbol at %L is not a DUMMY variable"
 msgid "static field %qD is not mappable"
 msgstr "%L'deki simge bir DUMMY değişken değil"
 
-#: cp/decl2.c:1557
+#: cp/decl2.c:1556
 #, gcc-internal-format
 msgid "%q+D static data member inside of declare target directive"
 msgstr ""

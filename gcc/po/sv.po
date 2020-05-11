@@ -1442,16 +1442,16 @@ msgid "using simple load CSE after register allocation"
 msgstr "användning av enkel laddning av CSE efter registertilldelning"
 
 #. It's the compiler's fault.
-#: reload1.c:5997
+#: reload1.c:5998
 msgid "could not find a spill register"
 msgstr "kunde inte hitta något spillregister"
 
 #. It's the compiler's fault.
-#: reload1.c:7879
+#: reload1.c:7880
 msgid "VOIDmode on an output"
 msgstr "VOIDmode vid utmatning"
 
-#: reload1.c:8612
+#: reload1.c:8613
 msgid "failure trying to reload:"
 msgstr "misslyckande vid omläsningsförsök:"
 
@@ -7007,6 +7007,11 @@ msgid "Specify maximum error replay depth during recursive diagnosis of a constr
 msgstr "Ange maximalt felåterspelningsdjup under rekursiva felmeddelanden av ett begränsningsuppfyllelsefel."
 
 #: c-family/c.opt:1535
+#, no-c-format
+msgid "Specify maximum error replay depth during recursive diagnosis of a constraint satisfaction failure."
+msgstr "Ange maximalt felåterspelningsdjup under rekursiva felmeddelanden av ett begränsningsuppfyllelsefel."
+
+#: c-family/c.opt:1462
 #, no-c-format
 msgid "Allow the arguments of the '?' operator to have different types."
 msgstr "Tillåt argument till ”?”-operatorn att ha olika typer."
@@ -16512,6 +16517,11 @@ msgstr "Avaktivera varningen -Wframe-larger-than=.  Ekvivalent med -Wframe-large
 
 #: common.opt:611
 #, no-c-format
+msgid "Disable -Wframe-larger-than= warning.  Equivalent to -Wframe-larger-than=<SIZE_MAX> or larger."
+msgstr "Avaktivera varningen -Wframe-larger-than=.  Ekvivalent med -Wframe-larger-than=<SIZE_MAX> eller större."
+
+#: common.opt:610
+#, no-c-format
 msgid "Warn when attempting to free a non-heap object."
 msgstr "Varna vid försök att frigöra ett icke-heap-objekt."
 
@@ -20003,6 +20013,11 @@ msgid "Maximum number of artificial accesses to enable forward propagation that 
 msgstr "Maximalt antal artificiella åtkomster för att aktivera framåtpropagering som Skalär ersättning av aggregat kommer behålla för en lokal variabel."
 
 #: params.opt:942
+#, no-c-format
+msgid "Maximum number of artificial accesses to enable forward propagation that Scalar Replacement of Aggregates will keep for one local variable."
+msgstr "Maximalt antal artificiella åtkomster för att aktivera framåtpropagering som Skalär ersättning av aggregat kommer behålla för en lokal variabel."
+
+#: params.opt:853
 #, no-c-format
 msgid "The maximum number of SSA_NAME assignments to follow in determining a value."
 msgstr "Det maximala antalet SSA_NAME-tilldelningar att följa för att avgöra ett värde."
@@ -26944,17 +26959,17 @@ msgstr "det går inte att hitta ett register i klassen %qs vid omläsning av %<a
 msgid "unable to find a register to spill in class %qs"
 msgstr "kan inte hitta ett register att spilla i klass %qs"
 
-#: reload1.c:4585
+#: reload1.c:4586
 #, gcc-internal-format
 msgid "%<asm%> operand requires impossible reload"
 msgstr "%<asm%>-operand kräver omöjlig omlastning"
 
-#: reload1.c:6002
+#: reload1.c:6003
 #, gcc-internal-format
 msgid "%<asm%> operand constraint incompatible with operand size"
 msgstr "%<asm%>-operandbegränsningar inkompatibla med operandstorlek"
 
-#: reload1.c:7880
+#: reload1.c:7881
 #, gcc-internal-format
 msgid "output operand is constant in %<asm%>"
 msgstr "utdataoperand är konstant i %<asm%>"
@@ -34963,12 +34978,12 @@ msgstr "%s stödjer endast icke-pic-kod på M-profile-mål"
 msgid "%s incompatible with %<-mword-relocations%>"
 msgstr "%s är inkompatibel med %<-mword-relocations%>"
 
-#: config/arm/arm.c:3075
+#: config/arm/arm.c:3082
 #, gcc-internal-format
 msgid "target CPU does not support THUMB instructions"
 msgstr "målprocessorn stödjer inte THUMB-instruktioner"
 
-#: config/arm/arm.c:3125
+#: config/arm/arm.c:3132
 #, gcc-internal-format
 msgid "target CPU does not support unaligned accesses"
 msgstr "målprocessorn stödjer inte ojusterade åtkomster"
@@ -50773,7 +50788,7 @@ msgstr "typen %qT med virtuella medlemmar är inte avbildbar"
 msgid "static field %qD is not mappable"
 msgstr "det statiska fältet %qD är inte avbildbart"
 
-#: cp/decl2.c:1557
+#: cp/decl2.c:1556
 #, gcc-internal-format
 msgid "%q+D static data member inside of declare target directive"
 msgstr "den statiska datamedlemmen %q+D är inuti deklarationsmålsdirektiv"
@@ -56478,7 +56493,7 @@ msgstr "fångar icke-referenstyp %q#T"
 msgid "type of %<asm%> operand %qE could not be determined"
 msgstr "typen på %<asm%>-operanden %qE kunde inte avgöras"
 
-#: cp/semantics.c:1924
+#: cp/semantics.c:1925
 #, gcc-internal-format
 msgid "%<__label__%> declarations are only allowed in function scopes"
 msgstr "%<__label__%>-deklarationer får bara förekomma på funktionsnivå"
