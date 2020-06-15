@@ -9678,6 +9678,7 @@ grokfndecl (tree ctype,
 	    special_function_kind sfk,
 	    bool funcdef_flag,
 	    bool late_return_type_p,
+	    int initialized,
 	    int template_count,
 	    tree in_namespace,
 	    tree* attrlist,
@@ -13638,6 +13639,7 @@ grokdeclarator (const cp_declarator *declarator,
 				       | (8 * consteval_p),
 			       initialized == SD_DELETED, sfk,
 			       funcdef_flag, late_return_type_p,
+			       initialized,
 			       template_count, in_namespace,
 			       attrlist, id_loc);
             decl = set_virt_specifiers (decl, virt_specifiers);
@@ -13950,6 +13952,7 @@ grokdeclarator (const cp_declarator *declarator,
                            sfk,
                            funcdef_flag,
 			   late_return_type_p,
+			   initialized,
 			   template_count, in_namespace, attrlist,
 			   id_loc);
 	if (decl == NULL_TREE)
