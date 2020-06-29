@@ -4659,8 +4659,9 @@ morph_fn_to_coro (tree orig, tree *resumer, tree *destroyer)
   if (grooaf == error_mark_node)
     grooaf = NULL_TREE;
 
-  /* ... but if that fails, returning an error, the later stages can't handle
-     the erroneous expression, so we reset the call as if it was absent.  */
+  /* however, should that fail, returning an error, the later stages can't
+     handle the erroneous expression, so we reset the call as if it was
+     absent.  */
   if (grooaf == error_mark_node)
     grooaf = NULL_TREE;
 
