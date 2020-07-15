@@ -199,14 +199,11 @@ static void
 merge_and_complain (struct cl_decoded_option **decoded_options,
 		    unsigned int *decoded_options_count,
 		    struct cl_decoded_option *fdecoded_options,
-		    unsigned int fdecoded_options_count,
-		    struct cl_decoded_option *decoded_cl_options,
-		    unsigned int decoded_cl_options_count)
+		    unsigned int fdecoded_options_count)
 {
   unsigned int i, j;
   struct cl_decoded_option *pic_option = NULL;
   struct cl_decoded_option *pie_option = NULL;
-  struct cl_decoded_option *cf_protection_option = NULL;
 
   /* ???  Merge options from files.  Most cases can be
      handled by either unioning or intersecting
@@ -221,17 +218,6 @@ merge_and_complain (struct cl_decoded_option **decoded_options,
      In absence of that it's unclear what a good default is.
      It's also difficult to get positional handling correct.  */
 
-  /* Look for a -fcf-protection option in the link-time options
-     which overrides any -fcf-protection from the lto sections.  */
-  for (i = 0; i < decoded_cl_options_count; ++i)
-    {
-      struct cl_decoded_option *foption = &decoded_cl_options[i];
-      if (foption->opt_index == OPT_fcf_protection_)
-	{
-	  cf_protection_option = foption;
-	}
-    }
-  
   /* The following does what the old LTO option code did,
      union all target and a selected set of common options.  */
   for (i = 0; i < fdecoded_options_count; ++i)
@@ -695,7 +681,6 @@ append_compiler_options (obstack *argv_obstack, struct cl_decoded_option *opts,
 	case OPT_fopenacc:
 	case OPT_fopenacc_dim_:
 	case OPT_foffload_abi_:
-	case OPT_fcf_protection_:
 	case OPT_g:
 	case OPT_O:
 	case OPT_Ofast:
@@ -1059,14 +1044,12 @@ find_crtoffloadtable (int save_temps, const char *dumppfx)
 
 /* A subroutine of run_gcc.  Examine the open file FD for lto sections with
    name prefix PREFIX, at FILE_OFFSET, and store any options we find in OPTS
-   and OPT_COUNT.  Return true if we found a matching section, false
+   and OPT_COUNT.  Return true if we found a matchingn section, false
    otherwise.  COLLECT_GCC holds the value of the environment variable with
    the same name.  */
 
 static bool
 find_and_merge_options (int fd, off_t file_offset, const char *prefix,
-			struct cl_decoded_option *decoded_cl_options,
-			unsigned int decoded_cl_options_count,
 			struct cl_decoded_option **opts,
 			unsigned int *opt_count, const char *collect_gcc)
 {
@@ -1113,9 +1096,7 @@ find_and_merge_options (int fd, off_t file_offset, const char *prefix,
       else
 	merge_and_complain (&fdecoded_options,
 			    &fdecoded_options_count,
-			    f2decoded_options, f2decoded_options_count,
-			    decoded_cl_options,
-			    decoded_cl_options_count);
+			    f2decoded_options, f2decoded_options_count);
 
       fopts += strlen (fopts) + 1;
     }
@@ -1470,7 +1451,6 @@ run_gcc (unsigned argc, char *argv[])
 	}
 
       if (find_and_merge_options (fd, file_offset, LTO_SECTION_NAME_PREFIX,
-				  decoded_options, decoded_options_count,
 				  &fdecoded_options, &fdecoded_options_count,
 				  collect_gcc))
 	{
@@ -1711,7 +1691,6 @@ cont1:
 	    fatal_error (input_location, "cannot open %s: %m", filename);
 	  if (!find_and_merge_options (fd, file_offset,
 				       OFFLOAD_SECTION_NAME_PREFIX,
-				       decoded_options, decoded_options_count,
 				       &offload_fdecoded_options,
 				       &offload_fdecoded_options_count,
 				       collect_gcc))
