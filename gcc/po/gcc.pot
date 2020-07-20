@@ -8574,7 +8574,7 @@ msgstr ""
 msgid "Issue a note when diagnostics are deduplicated."
 msgstr ""
 
-#: analyzer/analyzer.opt:159
+#: analyzer/analyzer.opt:155
 #, no-c-format
 msgid "Purge unneeded state during analysis."
 msgstr ""
@@ -50210,28 +50210,28 @@ msgid ""
 "conversion to void will not access object of non-trivially-copyable type %qT"
 msgstr ""
 
-#: cp/cvt.c:1353
+#: cp/cvt.c:1352
 #, gcc-internal-format
 msgid ""
 "indirection will not access object of non-trivially-copyable type %qT in "
 "second operand of conditional expression"
 msgstr ""
 
-#: cp/cvt.c:1358
+#: cp/cvt.c:1357
 #, gcc-internal-format
 msgid ""
 "indirection will not access object of non-trivially-copyable type %qT in "
 "third operand of conditional expression"
 msgstr ""
 
-#: cp/cvt.c:1363
+#: cp/cvt.c:1362
 #, gcc-internal-format
 msgid ""
 "indirection will not access object of non-trivially-copyable type %qT in "
 "right operand of comma operator"
 msgstr ""
 
-#: cp/cvt.c:1368
+#: cp/cvt.c:1367
 #, gcc-internal-format
 msgid ""
 "indirection will not access object of non-trivially-copyable type %qT in "
@@ -50404,22 +50404,22 @@ msgstr ""
 msgid "for increment expression has no effect"
 msgstr ""
 
-#: cp/cvt.c:1760
+#: cp/cvt.c:1759
 #, gcc-internal-format
 msgid "converting NULL to non-pointer type"
 msgstr ""
 
-#: cp/cvt.c:1878
+#: cp/cvt.c:1877
 #, gcc-internal-format
 msgid "default type conversion cannot deduce template argument for %qD"
 msgstr ""
 
-#: cp/cvt.c:1893
+#: cp/cvt.c:1892
 #, gcc-internal-format
 msgid "ambiguous default type conversion from %qT"
 msgstr ""
 
-#: cp/cvt.c:1896
+#: cp/cvt.c:1895
 #, gcc-internal-format
 msgid "  candidate conversions include %qD and %qD"
 msgstr ""
@@ -62634,7 +62634,7 @@ msgstr ""
 msgid "Array constructor including type specification at %C"
 msgstr ""
 
-#: fortran/array.c:1255 fortran/match.c:4241
+#: fortran/array.c:1255 fortran/match.c:4244
 #, gcc-internal-format, gfc-internal-format
 msgid "Type-spec at %L cannot contain a deferred type parameter"
 msgstr ""
@@ -65666,6 +65666,12 @@ msgid ""
 msgstr ""
 
 #: fortran/decl.c:10034
+#, gcc-internal-format, gfc-internal-format
+msgid ""
+"Derived type at %C can only be PRIVATE in the specification part of a module"
+msgstr ""
+
+#: fortran/decl.c:10003
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Derived type at %C can only be PUBLIC in the specification part of a module"
@@ -68995,505 +69001,505 @@ msgstr ""
 msgid "Invalid type-spec at %C"
 msgstr ""
 
-#: fortran/match.c:2399
+#: fortran/match.c:2402
 #, gcc-internal-format, gfc-internal-format
 msgid "Syntax error in FORALL iterator at %C"
 msgstr ""
 
-#: fortran/match.c:2664
+#: fortran/match.c:2667
 #, gcc-internal-format, gfc-internal-format
 msgid "DO CONCURRENT construct at %C"
 msgstr ""
 
-#: fortran/match.c:2789
+#: fortran/match.c:2792
 #, gcc-internal-format
 msgid "Name %qs in %s statement at %C is unknown"
 msgstr ""
 
-#: fortran/match.c:2797
+#: fortran/match.c:2800
 #, gcc-internal-format
 msgid "Name %qs in %s statement at %C is not a construct name"
 msgstr ""
 
-#: fortran/match.c:2809
+#: fortran/match.c:2812
 #, gcc-internal-format, gfc-internal-format
 msgid "%s statement at %C leaves CRITICAL construct"
 msgstr ""
 
 #. F2008, C821 & C845.
-#: fortran/match.c:2817
+#: fortran/match.c:2820
 #, gcc-internal-format, gfc-internal-format
 msgid "%s statement at %C leaves DO CONCURRENT construct"
 msgstr ""
 
-#: fortran/match.c:2829
+#: fortran/match.c:2832
 #, gcc-internal-format, gfc-internal-format
 msgid "%s statement at %C is not within a construct"
 msgstr ""
 
-#: fortran/match.c:2832
+#: fortran/match.c:2835
 #, gcc-internal-format
 msgid "%s statement at %C is not within construct %qs"
 msgstr ""
 
-#: fortran/match.c:2858
+#: fortran/match.c:2861
 #, gcc-internal-format
 msgid "CYCLE statement at %C is not applicable to non-loop construct %qs"
 msgstr ""
 
-#: fortran/match.c:2863
+#: fortran/match.c:2866
 #, gcc-internal-format, gfc-internal-format
 msgid "EXIT statement with no do-construct-name at %C"
 msgstr ""
 
-#: fortran/match.c:2869
+#: fortran/match.c:2872
 #, gcc-internal-format
 msgid "%s statement at %C is not applicable to construct %qs"
 msgstr ""
 
-#: fortran/match.c:2877
+#: fortran/match.c:2880
 #, gcc-internal-format, gfc-internal-format
 msgid "%s statement at %C leaving OpenACC structured block"
 msgstr ""
 
-#: fortran/match.c:2878
+#: fortran/match.c:2881
 #, gcc-internal-format, gfc-internal-format
 msgid "%s statement at %C leaving OpenMP structured block"
 msgstr ""
 
-#: fortran/match.c:2915
+#: fortran/match.c:2918
 #, gcc-internal-format, gfc-internal-format
 msgid "EXIT statement at %C terminating !$ACC LOOP loop"
 msgstr ""
 
-#: fortran/match.c:2921
+#: fortran/match.c:2924
 #, gcc-internal-format, gfc-internal-format
 msgid "CYCLE statement at %C to non-innermost tiled !$ACC LOOP loop"
 msgstr ""
 
-#: fortran/match.c:2923
+#: fortran/match.c:2926
 #, gcc-internal-format, gfc-internal-format
 msgid "CYCLE statement at %C to non-innermost collapsed !$ACC LOOP loop"
 msgstr ""
 
-#: fortran/match.c:2952
+#: fortran/match.c:2955
 #, gcc-internal-format, gfc-internal-format
 msgid "EXIT statement at %C terminating !$OMP DO loop"
 msgstr ""
 
-#: fortran/match.c:2957
+#: fortran/match.c:2960
 #, gcc-internal-format, gfc-internal-format
 msgid "CYCLE statement at %C to non-innermost collapsed !$OMP DO loop"
 msgstr ""
 
-#: fortran/match.c:3045
+#: fortran/match.c:3048
 #, gcc-internal-format, gfc-internal-format
 msgid "Blank required in %s statement near %C"
 msgstr ""
 
-#: fortran/match.c:3063
+#: fortran/match.c:3066
 #, gcc-internal-format, gfc-internal-format
 msgid "STOP code at %C cannot be negative"
 msgstr ""
 
-#: fortran/match.c:3069
+#: fortran/match.c:3072
 #, gcc-internal-format, gfc-internal-format
 msgid "STOP code at %C contains too many digits"
 msgstr ""
 
-#: fortran/match.c:3090
+#: fortran/match.c:3093
 #, gcc-internal-format, gfc-internal-format
 msgid "%s statement at %C in PURE procedure"
 msgstr ""
 
-#: fortran/match.c:3106
+#: fortran/match.c:3109
 #, gcc-internal-format, gfc-internal-format
 msgid "Image control statement STOP at %C in CRITICAL block"
 msgstr ""
 
-#: fortran/match.c:3111
+#: fortran/match.c:3114
 #, gcc-internal-format, gfc-internal-format
 msgid "Image control statement STOP at %C in DO CONCURRENT block"
 msgstr ""
 
-#: fortran/match.c:3123
+#: fortran/match.c:3126
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "STOP code at %L must be a scalar CHARACTER constant or "
 "digit[digit[digit[digit[digit]]]]"
 msgstr ""
 
-#: fortran/match.c:3135
+#: fortran/match.c:3138
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "STOP code at %L must be a scalar default CHARACTER or INTEGER constant "
 "expression"
 msgstr ""
 
-#: fortran/match.c:3142
+#: fortran/match.c:3145
 #, gcc-internal-format, gfc-internal-format
 msgid "STOP code at %L must be either INTEGER or CHARACTER type"
 msgstr ""
 
-#: fortran/match.c:3149
+#: fortran/match.c:3152
 #, gcc-internal-format, gfc-internal-format
 msgid "STOP code at %L must be scalar"
 msgstr ""
 
-#: fortran/match.c:3156
+#: fortran/match.c:3159
 #, gcc-internal-format, gfc-internal-format
 msgid "STOP code at %L must be default character KIND=%d"
 msgstr ""
 
-#: fortran/match.c:3163
+#: fortran/match.c:3166
 #, gcc-internal-format, gfc-internal-format
 msgid "STOP code at %L must be default integer KIND=%d"
 msgstr ""
 
-#: fortran/match.c:3211
+#: fortran/match.c:3214
 #, gcc-internal-format, gfc-internal-format
 msgid "PAUSE statement at %C"
 msgstr ""
 
-#: fortran/match.c:3232
+#: fortran/match.c:3235
 #, gcc-internal-format, gfc-internal-format
 msgid "ERROR STOP statement at %C"
 msgstr ""
 
-#: fortran/match.c:3258
+#: fortran/match.c:3261
 #, gcc-internal-format, gfc-internal-format
 msgid "Image control statement EVENT %s at %C in PURE procedure"
 msgstr ""
 
-#: fortran/match.c:3273
+#: fortran/match.c:3276
 #, gcc-internal-format, gfc-internal-format
 msgid "Image control statement EVENT %s at %C in CRITICAL block"
 msgstr ""
 
-#: fortran/match.c:3280
+#: fortran/match.c:3283
 #, gcc-internal-format, gfc-internal-format
 msgid "Image control statement EVENT %s at %C in DO CONCURRENT block"
 msgstr ""
 
-#: fortran/match.c:3310 fortran/match.c:3652 fortran/match.c:3864
-#: fortran/match.c:4416 fortran/match.c:4787
+#: fortran/match.c:3313 fortran/match.c:3655 fortran/match.c:3867
+#: fortran/match.c:4419 fortran/match.c:4790
 #, gcc-internal-format, gfc-internal-format
 msgid "Redundant STAT tag found at %L"
 msgstr ""
 
-#: fortran/match.c:3331 fortran/match.c:3673 fortran/match.c:3884
-#: fortran/match.c:4448 fortran/match.c:4812
+#: fortran/match.c:3334 fortran/match.c:3676 fortran/match.c:3887
+#: fortran/match.c:4451 fortran/match.c:4815
 #, gcc-internal-format, gfc-internal-format
 msgid "Redundant ERRMSG tag found at %L"
 msgstr ""
 
-#: fortran/match.c:3352
+#: fortran/match.c:3355
 #, gcc-internal-format, gfc-internal-format
 msgid "Redundant UNTIL_COUNT tag found at %L"
 msgstr ""
 
-#: fortran/match.c:3418
+#: fortran/match.c:3421
 #, gcc-internal-format, gfc-internal-format
 msgid "EVENT POST statement at %C"
 msgstr ""
 
-#: fortran/match.c:3428
+#: fortran/match.c:3431
 #, gcc-internal-format, gfc-internal-format
 msgid "EVENT WAIT statement at %C"
 msgstr ""
 
-#: fortran/match.c:3440
+#: fortran/match.c:3443
 #, gcc-internal-format, gfc-internal-format
 msgid "FAIL IMAGE statement at %C"
 msgstr ""
 
-#: fortran/match.c:3464
+#: fortran/match.c:3467
 #, gcc-internal-format, gfc-internal-format
 msgid "FORM TEAM statement at %C"
 msgstr ""
 
-#: fortran/match.c:3503
+#: fortran/match.c:3506
 #, gcc-internal-format, gfc-internal-format
 msgid "CHANGE TEAM statement at %C"
 msgstr ""
 
-#: fortran/match.c:3533
+#: fortran/match.c:3536
 #, gcc-internal-format, gfc-internal-format
 msgid "END TEAM statement at %C"
 msgstr ""
 
-#: fortran/match.c:3557
+#: fortran/match.c:3560
 #, gcc-internal-format, gfc-internal-format
 msgid "SYNC TEAM statement at %C"
 msgstr ""
 
-#: fortran/match.c:3600
+#: fortran/match.c:3603
 #, gcc-internal-format, gfc-internal-format
 msgid "Image control statement %s at %C in PURE procedure"
 msgstr ""
 
-#: fortran/match.c:3615
+#: fortran/match.c:3618
 #, gcc-internal-format, gfc-internal-format
 msgid "Image control statement %s at %C in CRITICAL block"
 msgstr ""
 
-#: fortran/match.c:3622
+#: fortran/match.c:3625
 #, gcc-internal-format, gfc-internal-format
 msgid "Image control statement %s at %C in DO CONCURRENT block"
 msgstr ""
 
-#: fortran/match.c:3694
+#: fortran/match.c:3697
 #, gcc-internal-format, gfc-internal-format
 msgid "Redundant ACQUIRED_LOCK tag found at %L"
 msgstr ""
 
-#: fortran/match.c:3759
+#: fortran/match.c:3762
 #, gcc-internal-format, gfc-internal-format
 msgid "LOCK statement at %C"
 msgstr ""
 
-#: fortran/match.c:3769
+#: fortran/match.c:3772
 #, gcc-internal-format, gfc-internal-format
 msgid "UNLOCK statement at %C"
 msgstr ""
 
-#: fortran/match.c:3794
+#: fortran/match.c:3797
 #, gcc-internal-format, gfc-internal-format
 msgid "Image control statement SYNC at %C in PURE procedure"
 msgstr ""
 
-#: fortran/match.c:3800
+#: fortran/match.c:3803
 #, gcc-internal-format, gfc-internal-format
 msgid "SYNC statement at %C"
 msgstr ""
 
-#: fortran/match.c:3812
+#: fortran/match.c:3815
 #, gcc-internal-format, gfc-internal-format
 msgid "Image control statement SYNC at %C in CRITICAL block"
 msgstr ""
 
-#: fortran/match.c:3818
+#: fortran/match.c:3821
 #, gcc-internal-format, gfc-internal-format
 msgid "Image control statement SYNC at %C in DO CONCURRENT block"
 msgstr ""
 
-#: fortran/match.c:3998
+#: fortran/match.c:4001
 #, gcc-internal-format, gfc-internal-format
 msgid "ASSIGN statement at %C"
 msgstr ""
 
-#: fortran/match.c:4042
+#: fortran/match.c:4045
 #, gcc-internal-format, gfc-internal-format
 msgid "Assigned GOTO statement at %C"
 msgstr ""
 
-#: fortran/match.c:4086 fortran/match.c:4137
+#: fortran/match.c:4089 fortran/match.c:4140
 #, gcc-internal-format, gfc-internal-format
 msgid "Statement label list in GOTO at %C cannot be empty"
 msgstr ""
 
-#: fortran/match.c:4147
+#: fortran/match.c:4150
 #, gcc-internal-format, gfc-internal-format
 msgid "Computed GOTO at %C"
 msgstr ""
 
-#: fortran/match.c:4222
+#: fortran/match.c:4225
 #, gcc-internal-format, gfc-internal-format
 msgid "Error in type-spec at %L"
 msgstr ""
 
-#: fortran/match.c:4235
+#: fortran/match.c:4238
 #, gcc-internal-format, gfc-internal-format
 msgid "typespec in ALLOCATE at %L"
 msgstr ""
 
-#: fortran/match.c:4258
+#: fortran/match.c:4261
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "The type parameter spec list in the type-spec at %L cannot contain DEFERRED "
 "parameters"
 msgstr ""
 
-#: fortran/match.c:4288 fortran/match.c:4725
+#: fortran/match.c:4291 fortran/match.c:4728
 #, gcc-internal-format, gfc-internal-format
 msgid "Unexpected constant at %C"
 msgstr ""
 
-#: fortran/match.c:4298
+#: fortran/match.c:4301
 #, gcc-internal-format, gfc-internal-format
 msgid "Bad allocate-object at %C for a PURE procedure"
 msgstr ""
 
-#: fortran/match.c:4313
+#: fortran/match.c:4316
 #, gcc-internal-format, gfc-internal-format
 msgid "Incompatible allocate-object at %C for CHARACTER type-spec at %L"
 msgstr ""
 
-#: fortran/match.c:4335
+#: fortran/match.c:4338
 #, gcc-internal-format, gfc-internal-format
 msgid "ALLOCATE of coarray at %C in DO CONCURRENT block"
 msgstr ""
 
-#: fortran/match.c:4340
+#: fortran/match.c:4343
 #, gcc-internal-format, gfc-internal-format
 msgid "ALLOCATE of coarray at %C in CRITICAL block"
 msgstr ""
 
-#: fortran/match.c:4362
+#: fortran/match.c:4365
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Allocate-object at %L is neither a data pointer nor an allocatable variable"
 msgstr ""
 
-#: fortran/match.c:4374
+#: fortran/match.c:4377
 #, gcc-internal-format, gfc-internal-format
 msgid "Type of entity at %L is type incompatible with typespec"
 msgstr ""
 
-#: fortran/match.c:4382
+#: fortran/match.c:4385
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Kind type parameter for entity at %L differs from the kind type parameter of "
 "the typespec"
 msgstr ""
 
-#: fortran/match.c:4399
+#: fortran/match.c:4402
 #, gcc-internal-format, gfc-internal-format
 msgid "Shape specification for allocatable scalar at %C"
 msgstr ""
 
-#: fortran/match.c:4426
+#: fortran/match.c:4429
 #, gcc-internal-format, gfc-internal-format
 msgid "STAT tag at %L cannot be a constant"
 msgstr ""
 
-#: fortran/match.c:4442
+#: fortran/match.c:4445
 #, gcc-internal-format, gfc-internal-format
 msgid "ERRMSG tag at %L"
 msgstr ""
 
-#: fortran/match.c:4465
+#: fortran/match.c:4468
 #, gcc-internal-format, gfc-internal-format
 msgid "SOURCE tag at %L"
 msgstr ""
 
-#: fortran/match.c:4471
+#: fortran/match.c:4474
 #, gcc-internal-format, gfc-internal-format
 msgid "Redundant SOURCE tag found at %L"
 msgstr ""
 
-#: fortran/match.c:4478
+#: fortran/match.c:4481
 #, gcc-internal-format, gfc-internal-format
 msgid "SOURCE tag at %L conflicts with the typespec at %L"
 msgstr ""
 
-#: fortran/match.c:4484
+#: fortran/match.c:4487
 #, gcc-internal-format, gfc-internal-format
 msgid "SOURCE tag at %L with more than a single allocate object"
 msgstr ""
 
-#: fortran/match.c:4502
+#: fortran/match.c:4505
 #, gcc-internal-format, gfc-internal-format
 msgid "MOLD tag at %L"
 msgstr ""
 
-#: fortran/match.c:4508
+#: fortran/match.c:4511
 #, gcc-internal-format, gfc-internal-format
 msgid "Redundant MOLD tag found at %L"
 msgstr ""
 
-#: fortran/match.c:4515
+#: fortran/match.c:4518
 #, gcc-internal-format, gfc-internal-format
 msgid "MOLD tag at %L conflicts with the typespec at %L"
 msgstr ""
 
-#: fortran/match.c:4541
+#: fortran/match.c:4544
 #, gcc-internal-format, gfc-internal-format
 msgid "MOLD tag at %L conflicts with SOURCE tag at %L"
 msgstr ""
 
-#: fortran/match.c:4549
+#: fortran/match.c:4552
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Allocate-object at %L with a deferred type parameter requires either a type-"
 "spec or SOURCE tag or a MOLD tag"
 msgstr ""
 
-#: fortran/match.c:4561
+#: fortran/match.c:4564
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Unlimited polymorphic allocate-object at %L requires either a type-spec or "
 "SOURCE tag or a MOLD tag"
 msgstr ""
 
-#: fortran/match.c:4628
+#: fortran/match.c:4631
 #, gcc-internal-format, gfc-internal-format
 msgid "Pointer object at %C shall not be coindexed"
 msgstr ""
 
-#: fortran/match.c:4643
+#: fortran/match.c:4646
 #, gcc-internal-format, gfc-internal-format
 msgid "NULLIFY does not allow bounds remapping for pointer object at %C"
 msgstr ""
 
-#: fortran/match.c:4737
+#: fortran/match.c:4740
 #, gcc-internal-format, gfc-internal-format
 msgid "Illegal allocate-object at %C for a PURE procedure"
 msgstr ""
 
-#: fortran/match.c:4747
+#: fortran/match.c:4750
 #, gcc-internal-format, gfc-internal-format
 msgid "DEALLOCATE of coarray at %C in DO CONCURRENT block"
 msgstr ""
 
-#: fortran/match.c:4754
+#: fortran/match.c:4757
 #, gcc-internal-format, gfc-internal-format
 msgid "DEALLOCATE of coarray at %C in CRITICAL block"
 msgstr ""
 
-#: fortran/match.c:4770
+#: fortran/match.c:4773
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Allocate-object at %C is not a nonprocedure pointer nor an allocatable "
 "variable"
 msgstr ""
 
-#: fortran/match.c:4807
+#: fortran/match.c:4810
 #, gcc-internal-format, gfc-internal-format
 msgid "ERRMSG at %L"
 msgstr ""
 
-#: fortran/match.c:4864
+#: fortran/match.c:4867
 #, gcc-internal-format, gfc-internal-format
 msgid "Image control statement RETURN at %C in CRITICAL block"
 msgstr ""
 
-#: fortran/match.c:4870
+#: fortran/match.c:4873
 #, gcc-internal-format, gfc-internal-format
 msgid "Image control statement RETURN at %C in DO CONCURRENT block"
 msgstr ""
 
-#: fortran/match.c:4879
+#: fortran/match.c:4882
 #, gcc-internal-format, gfc-internal-format
 msgid "Alternate RETURN statement at %C is only allowed within a SUBROUTINE"
 msgstr ""
 
-#: fortran/match.c:4910
+#: fortran/match.c:4913
 #, gcc-internal-format, gfc-internal-format
 msgid "RETURN statement in main program at %C"
 msgstr ""
 
-#: fortran/match.c:4938
+#: fortran/match.c:4941
 #, gcc-internal-format, gfc-internal-format
 msgid "Expected component reference at %C"
 msgstr ""
 
-#: fortran/match.c:4947
+#: fortran/match.c:4950
 #, gcc-internal-format, gfc-internal-format
 msgid "Junk after CALL at %C"
 msgstr ""
 
-#: fortran/match.c:4958
+#: fortran/match.c:4961
 #, gcc-internal-format, gfc-internal-format
 msgid "Expected type-bound procedure or procedure pointer component at %C"
 msgstr ""
