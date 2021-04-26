@@ -45,7 +45,11 @@ static size_t mingw32_gt_pch_alloc_granularity (void);
 static inline void w32_error(const char*, const char*, int, const char*);
 
 /* FIXME: Is this big enough?  */
+#if __MINGW64__
+static const size_t pch_VA_max_size  = UINT64_C(64 * 1024 * 1024 * 1024);
+#else
 static const size_t pch_VA_max_size  = 128 * 1024 * 1024;
+#endif
 
 /* Granularity for reserving address space.  */
 static size_t va_granularity = 0x10000;
